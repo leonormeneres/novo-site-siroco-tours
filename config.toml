@@ -1,0 +1,121 @@
+#baseURL = "https://sirocotours.com/"
+baseURL = "https://siroco-tours.exah-io.now.sh/"
+#baseURL = "http://localhost:1313/"
+DefaultContentLanguage = "pt"
+title = "Siroco Tours"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[imaging]
+  quality = 30
+
+[Params]
+formHiddenFormId = ""
+
+[languages]
+  [languages.pt]
+    contentDir = "content/pt"
+    languageName = "Português"
+    formHiddenFormId = "f8dfebb0-c171-4182-9376-643434e4d241"
+    weight = 1
+      [[languages.pt.menu.main]]
+        identifier = "home"
+        url = "/"
+        name = "Inicio"
+        weight = 1
+      [[languages.pt.menu.main]]
+        identifier = "tours"
+        url = "/tours/"
+        name = "Tours"
+        weight = 2
+      [[languages.pt.menu.main]]
+        identifier = "destinations"
+        url = "/destinos/"
+        name = "Destinos"
+        weight = 3
+      [[languages.pt.menu.main]]
+        identifier = "blog"
+        url = "/blog/"
+        name = "Blog"
+        weight = 4
+      [[languages.pt.menu.main]]
+        identifier = "team"
+        url = "/equipa/"
+        name = "Equipa"
+        weight = 5
+      [[languages.pt.menu.main]]
+        identifier = "contact"
+        url = "/contactos/"
+        name = "Contacte-nos"
+        weight = 6
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    formHiddenFormId = "b1fccd07-d37b-4f15-92e3-6f5902a768db"
+    weight = 2
+      [[languages.en.menu.main]]
+        identifier = "home"
+        url = "/en/"
+        name = "Home"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "tours"
+        url = "/en/tours/"
+        name = "Tours"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "destinations"
+        url = "/en/destinations/"
+        name = "Activities"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        url = "/en/blog/"
+        name = "Blog"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "team"
+        url = "/en/team/"
+        name = "About Us"
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        url = "/en/contact/"
+        name = "Contact"
+        weight = 6
+  [languages.zh]
+    contentDir = "content/zh"
+    languageName = "Chinese"
+    formHiddenFormId = "fc7d47f0-41b8-4e8c-ad40-74071bc2242b"
+    weight = 3
+      [[languages.zh.menu.main]]
+        identifier = "home"
+        url = "/zh/"
+        name = "Home"
+        weight = 1
+      [[languages.zh.menu.main]]
+        identifier = "tours"
+        url = "/zh/tours/"
+        name = "Tours"
+        weight = 2
+      [[languages.zh.menu.main]]
+        identifier = "destinations"
+        url = "/zh/destinations/"
+        name = "Destinations"
+        weight = 3
+      [[languages.zh.menu.main]]
+        identifier = "blog"
+        url = "/zh/blog/"
+        name = "Blog"
+        weight = 4
+      [[languages.zh.menu.main]]
+        identifier = "team"
+        url = "/zh/team/"
+        name = "Team"
+        weight = 5
+      [[languages.zh.menu.main]]
+        identifier = "contact"
+        url = "/zh/contact/"
+        name = "Contact"
+        weight = 6

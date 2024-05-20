@@ -1,0 +1,191 @@
+en:
+  - id: "day1"
+    day: "Day 1"
+    title: "Title 1"
+    description: '<p>Chegada ao aeroporto de Casablanca onde o nosso guia vos esperará pontualmente e devidamente identificado.</p>
+    <p> - </p>
+    <p> Iremos visitar a <b>mesquita de Hassan II</b> construída sobre o mar e uma das poucas que no mundo são passíveis de visitar por não-muçulmanos. A mesquita é monumental (é a mais alta do mundo fora de Meca) e há visitas guiadas que mostrarão em detalhe um dos mais emblemáticos patrimónios de Marrocos. </p>
+    <p> - </p>
+<p><b>Catedral do Sagrado Coração</b>, uma das maiores igrejas católicas de Marrocos. Está construída em estilo art deco e tem 33 metros de altura. De momento encontra-se temporariamente fechada para construção, mas definitivamente vale a pena ir apreciar este monumental edifício por fora. </p>
+<p> - </p>
+<p> Para almoçar, ee quiser comer um bom peixe fresco pode encontrar vários restaurantes ao longo da Corniche, uma bela avenida repleta de palmeiras em frente ao mar. </p>
+<p>-</p>
+<p>Seguimos para Rabat, onde terá a oportunidade de desfrutar de suas belas cúpulas, minaretes, largas avenidas e espaços verdes. </p>
+'
+
+
+  - id: "day2"
+    day: "Day 2"
+    title: "Title 2"
+    description: "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+
+pt:
+  - id: "day1"
+    day: "Dia 1:"
+    title: "Casablanca - Rabat"
+    description: '<p>Chegada ao aeroporto de <b>Casablanca</b>  onde o nosso guia vos esperará pontualmente e devidamente identificado.</p>
+<p>Iremos visitar a <b>mesquita de Hassan II</b> construída sobre o mar e uma das poucas que no mundo são passíveis de visitar por não-muçulmanos. A mesquita é monumental (é a mais alta do mundo fora de Meca) e há visitas guiadas que mostrarão em detalhe um dos mais emblemáticos patrimónios de Marrocos.</p>
+<p><b>Catedral do Sagrado Coração</b>, uma das maiores igrejas católicas de Marrocos. Está construída em estilo art deco e os seus  magníficos vitrais são uma obra de arte religiosa. </p>
+<p>Para almoçar, tem como opção vários restaurantes de peixe fresco ao longo da Corniche, uma bela avenida repleta de palmeiras em frente ao mar. </p>
+<p>Seguimos para <b>Rabat</b>, onde terá a oportunidade de desfrutar de suas belas cúpulas, minaretes, largas avenidas e espaços verdes. </p>
+
+'
+
+  - id: "day2"
+    day: "Dia 2:"
+    title: "Rabat - Chefchaouen"
+    description: '<p><b>Rabat</b> é uma cidade que cresceu no século XIV e XV, com a  expulsão dos andaluzes da península ibérica. É circundada por três muralhas correspondentes às fases mais marcantes da sua história: a muralha almóada, a muralha andaluza e a muralha alauita. O seu guia irá mostrar-lhe muralhas e os principais pontos da cidade, como a<b> torre de Hassan</b>, situada no topo de uma imponente mesquita, o opulento <b>túmulo de Mohammed  V</b>, entre muitos outros. </p>
+
+<p>Caminhe pelo <b>Kasbah das Oudayas</b>, uma antiga fortificação militar construída no sec, XII, com vista para o Oceano Atlântico. A história do local é visível através dos monumentos que compõem o Kasbah como: a sua famosa porta monumental (bab el-Kébir, um dos emblemas da arquitetura almóada); a residência real da dinastia Alaouite (ainda reinante); a mesquita Jamaa el Atiq; a casa principesca erguida a oeste; a estrutura militar do borj Sqala. </p>
+
+<p>Pela hora do almoço, partimos em direção à cidade azul. Chegar a <b>Chefchaouen</b> é como penetrar num labirinto empedrado que a diferencia de outras medinas marroquinas, encerra uma ordem perfeita. Todos os caminhos chegam à praça Hamman, onde está a maior mesquita e centro de reunião dos seus habitantes, onde há cafés, restaurantes e música de rua. </p>
+
+<p>Com uma Medina calma, situada entre as montanhas do Rif e do Médio Atlas, Chefchaouen é famosa pelo seu artesanato e queijos de cabra. Suspensa e anónima entre as montanhas, a cidade é extraordinariamente pitoresca, ideal para quem gosta de explorar uma cidade em liberdade, e encontra deleite em pormenores, a nível de cultura ou arquitetura. </p>
+
+<p>Aproveite para desfrutar da vista sobre a cidade, com os seus tons suaves e contínuos de azul, do topo de uma colina. </p>
+'
+
+  - id: "day3"
+    day: "Dia 3:"
+    title: "Chefchaouen - Volubilis - Meknes - Fes"
+    description: '<p>Seguimos para Fes e pelo caminho aproveite para conhecer a cidade imperial de <b>Meknès</b>  e as <b>ruínas romanas de Volubilis. </b>  </p>
+
+<p>Estas ruínas são um exemplo excecionalmente bem preservado de uma grande cidade colonial romana. Volubilis marcava a fronteira do império a sul, e era o principal centro administrativo romano em África fora do Egipto. Poderá realizar uma visita acompanhada nesta zona. </p>
+
+<p>O sultão Moulay Ismail teve o sonho de fazer de Meknès a mais esplendorosa das cidades do Norte de África, foi contemporâneo de Luis XIV de França, tentando imitar o estilo e a corte Francesa. Chegou a interagir com o rei Francês tendo até feito uma proposta de casamento à sua filha. Por isso Meknes é conhecida como a “Versalhes do Magreb”. </p>
+
+<p>Conheça os lugares mais emblemáticos da cidade com o apoio do nosso guia. </p>
+
+<p>A região de Mecknés é também a zona do país onde se produzem vinhos essencialmente de castas francesas muito apreciadas. </p>
+
+<p>Pelo fim da tarde, chegada a <b>Fes</b>, onde terá ainda tempo para ver a cidade num dos seus esplendores, banhada pela luz suave da tarde. Faremos uma breve visita panorâmica da cidade. </p>
+
+'
+
+  - id: "day4"
+    day: "Dia 4:"
+    title: "Fes"
+    description: '<p>Paul Bowles descreveu Fes como um “labirito encantado abrigado do tempo”. Este dia é destinado à visita desta misteriosa cidade. Visite Fes com o apoio de um guia dedicado unicamente a esta cidade, de modo a conhecê-la em profundidade: os seus recantos, tradições, estórias e histórias. </p>
+
+<p>Fes foi outrora a capital de Marrocos, e tem influências fatimidas, andalusas, árabes, berberes e ainda judaicas. A cidade atingiu o seu auge no século XIII onde se tornou um pólo de conhecimento, tendo uma das mais antigas universidades do mundo, <b>Al Quaraouiyine</b>, capaz de emitir diplomas, segundo a Unesco. </p>
+
+<p>A <b>Medina de Fes</b> é a mais imponente das medinas históricas do norte de África, com as suas ruas labirínticas e secretas, onde encontra do mais comércio tradicional e curtumes, onde o couro é ainda trabalho de acordo com técnicas ancestrais. Visita às famosas tinturarias de peles <b>Chouara. </b> </p>
+
+<p>Poderá visitar os pontos de maior interesse cultural e histórico da cidade. Terá também a oportunidade de diversas <b>escolas corânicas</b> onde poderá ver alguns dos melhores exemplos da  delicadeza da decoração marroquina. </p>
+
+<p>Descubra o artesanato tradicional: iremos visitar uma <b>oficina de cerâmica</b> onde podem aprender sobre o ofício em primeira mão e observar todo o processo. </p>'
+
+  - id: "day5"
+    day: "Dia 5:"
+    title: "Fes - Ifran - Azrou - Erfoud - Deserto de Merzouga"
+    description: '<p>Partiremos pela manhã e iremos visitar as mágicas florestas de cedros, onde se irá deslumbrar pela sua espetacular natureza nativa. O ambiente é calmo, límpido e com os cheiros da natureza. </p>
+<p>Na viagem iremos fazer uma paragem em<b> Ifrane</b>, conhecida como a Suiça marroquina, uma localização excecional para contemplar a exuberante paisagem das montanhas. No Inverno fica coberta de neve e as paisagens lindas. </p>
+<p>Pelo caminho, será por vezes possível avistar macacos e interagir com eles e outros animais típicos destas florestas de cedros. </p>
+<p>Seguidamente iremos para o <b>Vale do Ziz</b>  onde vai conhecer melhor as tradições de Marrocos e a beleza de um oásis, num ambiente de sonho genuíno e abrigado das grandes rotas turísticas. </p>
+<p>Pelo caminho ao Deserto de Merzouga passará em <b>Erfoud</b>. Perto de Erfoud há escavações de fósseis onde hoje se encontram diversos fósseis de trilobites entre outras espécies primitivas. Isto permite concluir que o solo do deserto do Sahara já foi, em tempos muito recuados, o fundo de um oceano. Aqui poderá também apreciar uma exposição fósseis originais. </p>
+
+<p>Chegada a Merzouga e descanso num encantador Hotel com vista para as mais altas dunas do Sahara. </p>
+'
+  - id: "day6"
+    day: "Dia 6:"
+    title: "Deserto de Merzouga - Rissani - Khamlia - Dunas do Sahara"
+    description: '<p>Inicie o dia com destino ao deserto mais profundo, onde terá a oportunidade de conhecer povos nómadas. </p>
+
+<p>Durante o dia, realize diversas atividades no deserto, que podem ser do mais variado tipo: desportos, quadriciclos nas dunas, ateliers de cozinha marroquina ou até mesmo contactar com os nómadas, embrenhando-se na sua música e tradições. </p>
+<p>De seguida, iremos para o depositário dos povos nómadas de  <b>Khamlia</b>, uma aldeia perdida onde vive o povo original Gnawa, primeiramente trazidos do Sudão como escravos. Lá poderá apreciar a sua música, estilo de vida, cultura e tradição. Descubra a vida no meio do Sahara. </p>
+<p>Pela tarde vamos conhecer <b>.Rissani</b>, outrora capital de Marrocos. Rissani tem um famoso “souk” onde se podem comprar variadas coisas de artesanato a preços locais, um local autêntico não muito turístico. Aproveite para experimentar a autêntica pizza berbere, feita ainda por métodos ancestrais. </p>
+<p>Ao fim da tarde parta para uma viagem de camelo pelas dunas de Erg Chebbi, por cerca de uma hora, até chegar à tenda berbere onde passará a noite. As cores do fim de tarde nas dunas são uma delícia para quem gosta de fotografia. </p>
+<p>Aí, será servido o jantar e seguidamente haverá música tradicional ao vivo à volta de uma fogueira. Esta música de tambores e guitarras é envolvente e irresistível. Depois chega então o impressionante e mágico silêncio absoluto do deserto que convida à interioridade. O céu é límpido e cheio de estrelas. Será sem dúvida uma experiência inesquecível! </p>
+'
+  - id: "day7"
+    day: "Dia 7:"
+    title: "Dunas do Sahara - Gargantas do Todra - Vale do Dades - Ouarzazate"
+    description: '<p>Após do café da manhã e ver o assombroso nascer do sol nas dunas, iremos em direção a Ouarzazate, pelas estradas das montanhas do alto Atlas e faremos algumas paragens pelo caminho: </p>
+
+<p>Visitaremos as <b>Gargantas de Todra</b>, onde as falésias chegam aos 300m de altura, separadas por apenas 15m. Há tempo para desfrutar de um passeio pelo rio, rodeado pela sumptuosidade desta paisagem rochosa e única. </p>
+
+<p>Chegamos ao <b>vale do Dades</b>, com a sua deslumbrante beleza e interesse geológico. </p>
+
+<p>Este vale consegue ter montanhas áridas como o deserto, um vale fértil e onde se escutam os sons e odores da natureza, montanhas onde no inverno se avista neve, e diversos típicos Kashbahs, ancestrais povoações muralhadas. Poderá ver o Jbel Saghro, uma montanha ainda mais árida do que as restantes da cordilheira, uma paisagem comparada à da superfície da Lua. </p>
+
+<p>Na viagem passará por <b>Kelaat-MGouna</b>, a cidade das rosas e por <b>Skoura</b>, um dos raros palmeirais que se encontram em Marroocos, com 25 km quadrados.Durante a viagiem,  pode tirar umas fotografias enquanto aprecia a beleza do oásis. </p>
+
+<p>Chegada a <b>Ouarzazate</b> ao fim da tarde. </p>
+'
+  - id: "day8"
+    day: "Dia 8:"
+    title: "Ouarzazate - Ait BenHaddou - Imlil"
+    description: '<p><b>Ouarzazate</b> é conhecida como a cidade “Portas do Deserto”, pela sua localização entre as montanhas do Atlas e o Deserto do Saara. Além do cenário, aqui poderá visitar o Kasba Taouirt da antiga fortaleza, o palácio do Pasha Glaoui, perto da Medina e os famosos estúdios de cinema que rodaram vários filmes históricos, incluindo o famoso Lawrence da Arábia. </p>
+
+<p>Seguiremos viagem e iremos parar em <b>Ait Benhaddou</b>, o local mais importante na rota dos "Mil Kasbahs", classificado como Património Mundial pela UNESCO. É muito famoso por ter servido de cenário em muitos filmes de Hollywood, tais como: “A Múmia”, “O Gladiador” e “a Guerra dos Tronos”. </p>
+
+<p>No caminho a Imlil, iremos fazer várias paragens: poderemos visitar as cooperativas de artesanato e ver como se fazem ainda de forma artesanal os famosos tapetes marroquinos, como se produz o óleo de argan, etc. </p>
+'
+
+  - id: "day9"
+    day: "Dia 9:"
+    title: "Imlil - Essaouira"
+    description: '<p><b>Imlil</b> é uma vila típica do Atlas a 1760m de altitude, onde se pode apreciar toda a beleza, sossego e imponência das montanhas. Perto de Marraquexe, Imlil é o sítio ideal para quem gosta de ar livre e caminhadas, a pé ou de mula, pela montanha. </p>
+
+<p>Neste dia está previsto um trekking com o acompanhamento de um guia especializado, que inclui um picnic na montanha ou em alternativa um almoço em casa de uma família berbere, onde se irão encantar com a sua hospitalidade e onde terão oportunidade de contactar com gentes locais. </p>
+
+<p>Há diversas paisagens que podem ser visitadas a partir de Imlil, como o Lago Takerkoust, pequenas vilas do Atlas berberes, e ainda os locais onde os tapetes marroquinos são manufaturados. </p>
+
+<p>Um dos montes contíguos à vila de Imlil é o monte Toubkal, o ponto mais alto do norte de África (4167m de altitude). </p>
+<p>A meio da tarde, partimos em direção a <b>Essaouira</b> e pelo caminho, teremos oportunidade de avistar as famosas cabras que trepam nas árvores de Argan. </p>
+'
+  - id: "day10"
+    day: "Dia 10:"
+    title: "Essaouira - Marraquexe"
+    description: '<p><b>Essaouira</b> é uma das cidades mais encantadoras da costa marroquina e um centro artístico multicultural, que apaixonou pessoas como Jimi Hendrix, Orson Welles e Bob Marley. Com um aroma marítimo que permanentemente invade os recantos da sua medina, a cidade de Essaouira destaca-se pela sua vida urbana, cultura e gastronomia, baseada em peixe fresco e na utilização do óleo de argan. </p>
+<p>Esta zona costeira, desde o tempo em que Cártago era império, foi sempre considerada como um dos melhores sítios de ancoragem no Atlântico norte-Africano. Os primeiros vestígios de uma actividade comercial de relevo datam do século XI, mas viria a ser em 1506 que a cidade veria ser escrita uma das páginas mais importantes da sua história, ao ser conquistada por portugueses que aí construíram o forte que ainda hoje se visita na cidade, e a baptizaram de Morgador. </p>
+<p>A sua Medina foi construída no século XVIII, e é das poucas no mundo que teve de facto um planeamento arquitectónico. Foi nessa altura que a cidade foi baptizada de Essaouira, o que significa literalmente “a belamente desenhada”. Actualmente a cidade é considerada património mundial da UNESCO, e é o lugar eleição da maioria dos artistas plásticos marroquinos. </p>
+<p>Chegaremos finalmente a Marraquexe onde há surpresas a cada esquina, desde artistas tocando instrumentos originais ou tradicionais, todo o tipo de produtos e espetáculos, jardins recatados e mercados coloridos e aromáticos. </p>
+'
+  - id: "day11"
+    day: "Dia 11:"
+    title: "Marraquexe"
+    description: '<p>Explore Marraquexe, a cidade vermelha de Marrocos. O aroma intenso das  especiarias, a atmosfera colorida e exótica, os recantos e segredos da sua história e a sua surpreendente arquitetura fazem desta cidade a mais apetecível e visitada de Marrocos. </p>
+
+<p>Durante o dia, seja acompanhado por um guia dedicado somente à cidade de Marraquexe, para que aproveite o melhor que esta cidade tem para oferecer, explore a sua história, e o clima de fantasia e surpresa que Marraquexe sempre tem. </p>
+
+<p>Os monumentos a visitar são vários, dentro dos quais se destacam: </p>
+
+<p><b>Madrassa Ben Youssef: </b> Esta faculdade islâmica do século XII em Marraquexe foi mandada construir pelo sultão Ali ibn Yusuf de Marrocos. Hoje é um museu que pode ser visitado. Os interiores são maravilhosos, todos decorados e a sua arquitectura é espantosa. </p>
+
+<p><b>Mesquita da Koutoubia: </b> Sem dúvida o monumento mais famoso e mais fotografado de Marraquexe. A Mesquita Koutoubia foi construída no século XII e serviu de modelo para a Giralda de Sevilha e da Torre Hassan em Rabat. </p>
+
+<p><b>Palácio Bahia: </b>Este lindo palácio do século XIX extravagante construído para ser o melhor de Marrakech. Este palácio tem um enorme jardim, um pátio central e várias salas incrivelmente decorados com trabalhos de artesãos que vieram de propósito da cidade de Fez para trabalhar. </p>
+
+<p><b>Túmulos Saadianos: </b> Estes túmulos do século XVI foram mandados construir por Ahmad al-Mansur e há mausoléu os corpos de cerca de 60 membros da Dinastia Saadiana original do vale do Rio Draa mais ao sul do país. Curiosamente os túmulos só foram encontrados em 1917. Estes túmulos são um dos monumentos mais visitados de Marrakech. </p>
+
+<p><b>Palais Dar Bacha, </b> ou Musée de Confluences, um maravilhoso exemplar da arquitectura árabe. Dispõem de uma cafeteria muito especial, na qual poderá degustar cafés de todo o mundo, num ambiente encantador. </p>
+<p><b>Jardins Majorelle: </b> Este é o único jardim botânico de Marraquexe. Ele foi projectado pelo artista Jacques Majorelle e pertence a Yves Saint-Laurent e Bergé Pierre desde 1980. Você pode desfrutar de um maravilhoso jardim com flores exóticas de vários lugares do mundo. </p>
+<p><b>Museu Yves Saint Laurent, </b> que tem uma exposição permanente e também exposições temporárias, com obras primas deste famoso criador. O edifício em si, tem uma encantadora arquitectura moderna com toques tradicionais. </p>
+<p>Sugerimos que termine o dia com um jantar na fantástica praça <b>Jamaa el Fna</b>, onde a mistura de cheiros, músicas e espetáculos são inebriantes, e onde turistas e locais se fundem e jantam, frequentemente, lado a lado. Toda a cultura urbana marroquina está aqui representada e podem encontrar-se músicos de música gnoa ou música árabe, dança do ventre, encantadores de serpentes e espetáculos novos cada noite. </p>
+'
+
+  - id: "day12"
+    day: "Dia 12:"
+    title: "Marraquexe"
+    description: '<p>Tempo livre de manhã,  para explorem os souks (mercados tradicionais). </p>
+
+<p>Transfere ao aeroporto de partida. </p>
+
+<p>Boa viagem de volta com a memória cheia de boas recordações e com o coração encantado com este país mágico! </p>'
+
+  - id: "incluido"
+    day: "O que está incluido"
+    title: ""
+    description: '<ul>
+    
+<li style="text-align: left;"> • Transferes de chegada e partida ao aeroporto;</li>
+<li style="text-align: left;"> • Transporte privado durante toda a viagem em Minivan, nova e segura, com ar condicionado. Todos os nossos carros têm licença turística do Governo de Marrocos e seguro para os nossos clientes;</li>
+<li style="text-align: left;"> • Guia permanente que fala corretamente espanhol e bastante bem português; </li>
+<li style="text-align: left;"> • Acomodações durante toda a viagem, com café da manhã nos alojamentos indicados (ou equivalentes caso estejam esgotados no momento da reserva);</li>
+<li style="text-align: left;"> • Jantares nas 2 noites em Merzouga e em Vale do Dades </li>
+<li style="text-align: left;"> • Guia oficial adicional nas cidades de Marraquexe, Meknes e Fes;</li>
+<li style="text-align: left;"> • 1 noite em acampamento berbere numa tenda  nómada de luxo;</li>
+<li style="text-align: left;"> • Passeio de camelo com vista a chegar ao acampamento;</li>
+</ul>'
+

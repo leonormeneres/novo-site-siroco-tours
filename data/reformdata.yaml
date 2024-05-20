@@ -1,0 +1,140 @@
+en:
+  reform_action: "https://forms.reform.app/headless/TgS8EL/form-en/k6elm2/submissions"
+  
+  fullname_field_id: "592a0d1c-67a9-41a0-8c69-fc83fa88c68b"
+  fullname_field_type: "text"
+  fullname_field_name: "answers[592a0d1c-67a9-41a0-8c69-fc83fa88c68b]"
+  
+  email_field_id: "69dc7bcf-9d03-4195-be6a-df3985393fa8"
+  email_field_type: "text"
+  email_field_name: "answers[69dc7bcf-9d03-4195-be6a-df3985393fa8]"
+  
+  phonenumber_field_id: "fa0498f5-2d66-4725-ba4d-500284e524b4"
+  phonenumber_field_type: "text"
+  phonenumber_field_name: "answers[fa0498f5-2d66-4725-ba4d-500284e524b4]"
+  
+  message_field_id: "4249c371-8832-4824-932f-93f9e7d5c5bf"
+  message_field_name: "answers[4249c371-8832-4824-932f-93f9e7d5c5bf]"
+  
+  poi_desert_checkbox_id: "8678e662-861f-465c-9d0c-9ec71f23309c"
+  poi_desert_checkbox_type: "checkbox"
+  poi_desert_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_desert_checkbox_value: "Desert"
+  
+  poi_imperialcities_checkbox_id: "62551ade-7e8f-4f7c-969f-aabeb3555431"
+  poi_imperialcities_checkbox_type: "checkbox"
+  poi_imperialcities_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_imperialcities_checkbox_value: "Imperial Cities"
+  
+  poi_nature_checkbox_id: "f0090dcf-742f-486d-810d-97328bf9c205"
+  poi_nature_checkbox_type: "checkbox"
+  poi_nature_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_nature_checkbox_value: "Nature & Well-Being"
+  
+  poi_historyculture_checkbox_id: "55104013-b847-40c3-9bed-e683bb1cb0b0"
+  poi_historyculture_checkbox_type: "checkbox"
+  poi_historyculture_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_historyculture_checkbox_value: "History & Culture"
+  
+  poi_beach_checkbox_id: "d79d7ca1-8646-4642-81cd-b5012d597670"
+  poi_beach_checkbox_type: "checkbox"
+  poi_beach_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_beach_checkbox_value: "Beach and Sea"
+  
+  number_of_people_ddl_id: "f91f359a-5105-4754-8b67-a5e5e3db528c"
+  number_of_people_ddl_name: "answers[f91f359a-5105-4754-8b67-a5e5e3db528c]"
+  
+ 
+pt:
+  reform_action: "https://forms.reform.app/headless/TgS8EL/form-pt/k6elm2/submissions"
+  
+  fullname_field_id: "cc81c880-aab1-4d5f-ab8d-650620318447"
+  fullname_field_type: "text"
+  fullname_field_name: "answers[cc81c880-aab1-4d5f-ab8d-650620318447]"
+  
+  email_field_id: "e2ec3e9b-04ce-4c4a-99f1-8b7180494c5b"
+  email_field_type: "text"
+  email_field_name: "answers[e2ec3e9b-04ce-4c4a-99f1-8b7180494c5b]"
+  
+  phonenumber_field_id: "eb9c7406-78d6-46dd-8ef2-8049d4eeca80"
+  phonenumber_field_type: "text"
+  phonenumber_field_name: "answers[eb9c7406-78d6-46dd-8ef2-8049d4eeca80]"
+  
+  message_field_id: "cda4930b-b3e7-4228-9c03-421c52be5c82"
+  message_field_name: "answers[cda4930b-b3e7-4228-9c03-421c52be5c82]"
+  
+  poi_desert_checkbox_id: "94ba84c1-e5a0-4db6-b553-5c0af0bf0d6d"
+  poi_desert_checkbox_type: "checkbox"
+  poi_desert_checkbox_name: "answers[7b03cb3f-437f-4682-871f-87fed035912c][]"
+  poi_desert_checkbox_value: "Desert"
+  
+  poi_imperialcities_checkbox_id: "65656aa8-4996-4664-b035-ba989969d38f"
+  poi_imperialcities_checkbox_type: "checkbox"
+  poi_imperialcities_checkbox_name: "answers[7b03cb3f-437f-4682-871f-87fed035912c][]"
+  poi_imperialcities_checkbox_value: "Imperial Cities"
+  
+  poi_nature_checkbox_id: "527cce4c-63ea-4c1a-bdb0-77367c4b5b60"
+  poi_nature_checkbox_type: "checkbox"
+  poi_nature_checkbox_name: "answers[7b03cb3f-437f-4682-871f-87fed035912c][]"
+  poi_nature_checkbox_value: "Nature & Well-Being"
+  
+  poi_historyculture_checkbox_id: "21748d33-3a08-4ea8-99ce-b927907989fc"
+  poi_historyculture_checkbox_type: "checkbox"
+  poi_historyculture_checkbox_name: "answers[7b03cb3f-437f-4682-871f-87fed035912c][]"
+  poi_historyculture_checkbox_value: "History & Culture"
+  
+  poi_beach_checkbox_id: "e02e7a95-f2a2-4a37-a17d-ddf298a30be9"
+  poi_beach_checkbox_type: "checkbox"
+  poi_beach_checkbox_name: "answers[7b03cb3f-437f-4682-871f-87fed035912c][]"
+  poi_beach_checkbox_value: "Beach and Sea"
+  
+  number_of_people_ddl_id: "e5b5b549-062b-4b62-baae-047a5fde08b1"
+  number_of_people_ddl_name: "answers[e5b5b549-062b-4b62-baae-047a5fde08b1]"
+  
+  
+zh:
+  reform_action: "https://forms.reform.app/headless/TgS8EL/form-en/k6elm2/submissions"
+  
+  fullname_field_id: "592a0d1c-67a9-41a0-8c69-fc83fa88c68b"
+  fullname_field_type: "text"
+  fullname_field_name: "answers[592a0d1c-67a9-41a0-8c69-fc83fa88c68b]"
+  
+  email_field_id: "69dc7bcf-9d03-4195-be6a-df3985393fa8"
+  email_field_type: "text"
+  email_field_name: "answers[69dc7bcf-9d03-4195-be6a-df3985393fa8]"
+  
+  phonenumber_field_id: "fa0498f5-2d66-4725-ba4d-500284e524b4"
+  phonenumber_field_type: "text"
+  phonenumber_field_name: "answers[fa0498f5-2d66-4725-ba4d-500284e524b4]"
+  
+  message_field_id: "4249c371-8832-4824-932f-93f9e7d5c5bf"
+  message_field_name: "answers[4249c371-8832-4824-932f-93f9e7d5c5bf]"
+  
+  poi_desert_checkbox_id: "8678e662-861f-465c-9d0c-9ec71f23309c"
+  poi_desert_checkbox_type: "checkbox"
+  poi_desert_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_desert_checkbox_value: "Desert"
+  
+  poi_imperialcities_checkbox_id: "62551ade-7e8f-4f7c-969f-aabeb3555431"
+  poi_imperialcities_checkbox_type: "checkbox"
+  poi_imperialcities_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_imperialcities_checkbox_value: "Imperial Cities"
+  
+  poi_nature_checkbox_id: "f0090dcf-742f-486d-810d-97328bf9c205"
+  poi_nature_checkbox_type: "checkbox"
+  poi_nature_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_nature_checkbox_value: "Nature & Well-Being"
+  
+  poi_historyculture_checkbox_id: "55104013-b847-40c3-9bed-e683bb1cb0b0"
+  poi_historyculture_checkbox_type: "checkbox"
+  poi_historyculture_checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_historyculture_checkbox_value: "History & Culture"
+  
+  poi_beach-checkbox_id: "d79d7ca1-8646-4642-81cd-b5012d597670"
+  poi_beach-checkbox_type: "checkbox"
+  poi_beach-checkbox_name: "answers[cd1d967f-3b17-469d-93d8-733a80834cc2][]"
+  poi_beach-checkbox_value: "Beach and Sea"
+  
+  number_of_people_ddl_id: "f91f359a-5105-4754-8b67-a5e5e3db528c"
+  number_of_people_ddl_name: "answers[f91f359a-5105-4754-8b67-a5e5e3db528c]"
+  url: "https://www.tripadvisor.es"

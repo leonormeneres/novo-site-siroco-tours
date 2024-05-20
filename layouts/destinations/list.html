@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{ $__tower_sky_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__tower_sky_bg.jpg" }}
+<div id="cover" style="background-image: url('{{ $__tower_sky_bg.RelPermalink }}')">
+
+  <div id="title" class="title">
+    <div class="category"></div>
+    <div class="main">Activities</div>
+    <div class="sub">Explore our best suggestions</div>
+  </div>
+
+</div>
+
+
+<div class="activities-section">
+  <div class="activities-inner">
+    <div class="activities-row">
+      {{ range (.Paginator 6).Pages }}
+      <div class="activities-col">
+        <div class="single-activity">
+          <div class="box-image">
+            {{ with .Params.header_image }}
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+            {{ if $imageResource }}
+              {{ $resized := $imageResource.Resize "307x307" }}
+              {{ if $resized }}
+          <img src="{{ $resized.RelPermalink }}">
+          {{ else }}
+					<p>Image resizing failed.</p>
+				{{ end }}
+			{{ else }}
+				<p>Image not found or cannot be processed.</p>
+			{{ end }}
+        {{ end }}
+        </div>
+        <div class="box-desc">
+          <h3>{{ .Title }}</h3>
+
+          <p>{{ .Params.description }}</p>        
+          <a href="{{ .RelPermalink }}">Read more</a>
+        </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+   <!-- paginator -->
+   <div class="center">
+    {{ partial "paginator.html" . }}
+  </div>
+</div>
+
+
+
+
+  
+
+
+</div>
+
+{{ end }}

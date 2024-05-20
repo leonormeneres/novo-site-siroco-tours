@@ -1,0 +1,37 @@
+<!doctype html>
+
+<head>
+  <!-- Site title according to page type -->
+  {{ $title := print .Title " | " .Site.Title}}
+  {{ if .IsHome}}{{ $title := .Site.Title}}{{ end }}
+  <meta charset="utf-8">
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ end }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- hreflang alternates -->
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+  {{ if .IsTranslated }}
+  {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+  {{ end}}
+  {{ end }}
+
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ $__logotype1 := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__logotype1.png" }}
+  <meta property="og:image" content="{{ $__logotype1.Permalink }}">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/siroco.css">
+  <div class="whatsapp-bottom">
+    <a href="https://wa.me/351914184366"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png"></a>
+  </div>
+</head>

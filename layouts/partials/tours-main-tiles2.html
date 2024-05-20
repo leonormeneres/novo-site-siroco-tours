@@ -1,0 +1,68 @@
+<div class="main-three-tiles">
+
+
+{{ $websiteDomain := $.Site.BaseURL }}
+  
+     
+{{ with $.Site.GetPage "tours" "Wonders_of_Morocco" }}
+<a href="{{ .Permalink }}">
+{{ $altText := .Params.Alt }}
+  <div class="tour-card">
+    {{ with .Params.header_image }}
+    {{ $imagePath := printf "en/%s" . }}
+      {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+      <img src="{{ $imgURL }}" alt="{{$altText}}">
+    {{ end }}
+    <div class="description-overlay">
+      <div class="overlay-text-title">{{ .Title }}</div>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+    </div>
+  </div>
+</a>
+{{ end }}
+
+   
+
+{{ with $.Site.GetPage "tours" "tour 7 days" }}
+<a href="{{ .Permalink }}">
+{{ $altText := .Params.Alt }}
+  <div class="tour-card">
+
+    {{ with .Params.header_image }}
+    {{ $imagePath := printf "en/%s" . }}
+      {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+      <img src="{{ $imgURL }}" alt="{{$altText}}">
+    {{ end }}
+    
+    <div class="description-overlay">
+      <div class="overlay-text-title">{{ .Title }}</div>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+    </div>
+
+  </div>
+</a>
+{{ end }}
+
+   
+{{ with $.Site.GetPage "tours" "luxury-tour" }}
+<a href="{{ .Permalink }}">
+{{ $altText := .Params.Alt }}
+  <div class="tour-card">
+
+    {{ with .Params.header_image }}
+    {{ $imagePath := printf "en/%s" . }}
+      {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+      <img src="{{ $imgURL }}" alt="{{$altText}}">
+    {{ end }}
+
+    <div class="description-overlay">
+      <div class="overlay-text-title">{{ .Title }}</div>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+    </div>
+  </div>
+</a>
+{{ end }}
+</div>

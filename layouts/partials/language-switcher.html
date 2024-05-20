@@ -1,0 +1,13 @@
+
+<script>
+    
+</script>
+<nav>
+    <select id="language-select" onchange="if(this.value !== '#') window.location.href = this.value;" class="transparent-dropdown">
+        {{ $currentLanguage := .Site.Language }}
+        <option value="#" disabled selected>{{ $currentLanguage.LanguageName }}</option>
+        {{ range $.Translations }}
+            <option value="{{ .Permalink }}"{{ if eq .Language.Lang $currentLanguage.Lang }} selected{{ end }}>{{ .Language.LanguageName }}</option>
+        {{ end }}
+    </select>
+</nav>

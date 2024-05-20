@@ -1,0 +1,34 @@
+<div id="header">
+
+  <div id="logo">
+    {{ $__logotype1 := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__logotype1.png" }}
+    <a href="{{ .Site.Menus.Identifier | absLangURL }}"><img src="{{ $__logotype1.RelPermalink }}"></a>
+  </div>
+
+  <div id="hamnav">☰</div>
+
+  <div id="nav">
+
+    {{ range .Site.Menus.main }}
+    {{ $text := print .Name | safeHTML }}
+    <!-- All non-contact pages -->
+    {{ if ne .Identifier "contact" }}
+    <div class="nav">
+      <a href="{{ .URL | absLangURL }}">{{ $text }}</a>
+    </div>
+    {{ end }}
+    <!-- Contact page -->
+    {{ if eq .Identifier "contact" }}
+    <div class="nav rounded">
+      <a href="{{ .URL | absLangURL }}">{{ $text }}</a>
+    </div>
+    {{ end }}
+    {{ end }}
+    <div class="nav rounded lang-switch" >
+      {{ partial "language-switcher.html" . }}
+  </div>
+	
+
+  </div>
+
+</div>

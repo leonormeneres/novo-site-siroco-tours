@@ -1,0 +1,326 @@
+{{ define "main" }}
+
+{{ $__tower_sky_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__tower_sky_bg.jpg" }}
+<div id="cover" style="background-image: url('{{ $__tower_sky_bg.RelPermalink }}')">
+
+    <div id="title" class="title">
+        <div class="category"></div>
+        <div class="main">About Us</div>
+        <div class="article_title about-title"><h1>Why travel with us? </h1></div>
+    </div>
+
+</div>
+
+<div class="article">
+    <div class=" video_wrap">
+        <div class="video_box">
+            <div class="team-img">
+                <img src="https://thumbs.dreamstime.com/b/travel-world-landmarks-background-blue-sky-46083021.jpg">
+            </div>
+            <div class="team-desc">
+                <h2> {{ T "who-are-we-h2" }}</h2>
+                <p>{{ T "who-are-we-p" }}
+
+                </p>
+            </div>
+        
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+<div id="tiles" class="slanted">
+    <div class="wrap1">
+
+        <!-- <div class="tile">
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch "_staff-pedro-lencastre.jpg" }}
+            {{ $resized := $imageResource.Resize "307x" }}
+            <div class="img" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+            <div class="article_title">{{ i18n "team_member_1_name" }}</div>
+            <div class="article_paragraph">
+                <p>{{ i18n "team_member_1_description" }}</p>
+            </div>
+        </div>
+
+        <div class="tile">
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch "_staff-alexandra-rego.jpg" }}
+            {{ $resized := $imageResource.Resize "307x" }}
+            <div class="img" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+            <div class="article_title">{{ i18n "team_member_2_name" }}</div>
+            <div class="article_paragraph">
+                <p>{{ i18n "team_member_2_description" }}</p>
+            </div>
+        </div> -->
+<!-- 
+        <div class="tile">
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch "_staff-mohammed.jpg" }}
+            {{ $resized := $imageResource.Resize "307x" }}
+            <div class="img" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+            <div class="article_title">{{ i18n "team_member_3_name" }}</div>
+            <div class="article_paragraph">
+                <p>{{ i18n "team_member_3_description" }}</p>
+            </div>
+        </div> -->
+
+        <!-- <div class="tile">
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch "_staff-rachid.jpg" }}
+            {{ $resized := $imageResource.Resize "307x" }}
+            <div class="img" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+            <div class="article_title">{{ i18n "team_member_4_name" }}</div>
+            <div class="article_paragraph">
+                <p>{{ i18n "team_member_4_description" }}</p>
+            </div>
+        </div> -->
+<!-- 
+        <div class="tile">
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch "_staff-paulo.jpg" }}
+            {{ $resized := $imageResource.Resize "307x" }}
+            <div class="img" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+            <div class="article_title">{{ i18n "team_member_5_name" }}</div>
+            <div class="article_paragraph">
+                <p>{{ i18n "team_member_5_description" }}</p>
+            </div>
+        </div> -->
+
+    </div>
+<div class="center-title">
+    <h1 class="">{{ T "meet-our-team" }}</h1>
+</div>
+
+    <div class="team-sections reverse">
+        <div class="team-inner">
+        <div class="team-box">
+            <div class="team-img">
+                <img src="https://sirocotours.com/wp-content/uploads/2015/04/IMG_1808.jpg">
+            </div>
+            <div class="team-desc">
+                <h2>Alexandra Rego</h2>
+                <p>{{ T "alex1p" }}</p>
+                <p>{{ T "alex2p" }}</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="team-sections ">
+            <div class="team-inner">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src= "https://sirocotours.com/wp-content/uploads/2015/04/IMG_3526.jpg">
+                </div>
+                <div class="team-desc">
+                    <h2>Pedro Lencastre</h2>
+                    <p>{{ T "pedro1p" }}</p>
+                    <p>{{ T "pedro2p" }}</p>
+                    </p>
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+
+            <div class="team-sections reverse">
+                <div class="team-inner">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_625736338_353769.jpg">
+                    </div>
+                    <div class="team-desc">
+                        <h2>Mohammed Boughrara</h2>
+                        <p>{{ T "mono1p" }}</p>
+                        <p>{{ T "mono2p" }}</p>
+                        </p>
+                    </div>
+                </div>
+                </div>
+                </div>
+
+
+
+                <div class="team-sections">
+                    <div class="team-inner">
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_625736338_353769.jpg">
+                        </div>
+                        <div class="team-desc">
+                            <h2>Rachid</h2>
+                            <p>{{ T "rachid1p" }}</p>
+                            <p>{{ T "rachid2p" }}</p>
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="team-sections reverse">
+                        <div class="team-inner">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_625736338_353769.jpg">
+                            </div>
+                            <div class="team-desc">
+                                <h2>Team Name here</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="team-sections">
+                            <div class="team-inner">
+                            <div class="team-box">
+                                <div class="team-img">
+                                    <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_625736338_353769.jpg">
+                                </div>
+                                <div class="team-desc">
+                                    <h2>Team Name here</h2>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    
+                                    </p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="team-sections reverse">
+                                <div class="team-inner">
+                                <div class="team-box">
+                                    <div class="team-img">
+                                        <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_625736338_353769.jpg">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h2>Team Name here</h2>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        
+                                        </p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+</div>
+
+
+
+<div class="article review-main">
+    <div class="center-title">
+        <h1 class="">Reviews</h1>
+    </div>
+    <div class="review_wrap">
+        
+        <div class="reviewbox">
+        
+            <div class="team-desc">
+
+                <div class="author">
+                    <div class="author-image">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/df/2b/default-avatar-2020-39.jpg?w=100&h=-1&s=1">
+                    </div>
+                    <div class="author-details">
+                        <h4>Lisa M</h4>
+                        <span>Newcastle</span>
+                    </div>
+                    <div class="rating">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <h2>Sirocco Tours does it again!</h2>
+                <p>I had the pleasure of visiting Morocco twice in 18 months with Sirocco Tours and both trips were amazing. This time our guide Redoune and our driver Issa were leading the way. Both fantastic guys and we laughed a lot and there wasn’t a question they couldn’t answer about their beautiful country. Morocco has my heart and Sirocco has played a big part in that with humble, funny, knowledgeable guides and for the price, you get plenty for your money, don’t hesitate, book now!
+
+                </p>
+            </div>
+        
+        </div>
+
+
+        <div class="reviewbox">
+        
+            <div class="team-desc">
+
+                <div class="author">
+                    <div class="author-image">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e9/bb/default-avatar-2020-65.jpg?w=100&h=-1&s=1">
+                    </div>
+                    <div class="author-details">
+                        <h4>Elizabeth W</h4>
+                        <span>Charlotte, NC</span>
+                    </div>
+                    <div class="rating">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <h2>Siri I Tours Ensured a Wonderful Experience</h2>
+                <p>I give Sirico Tours the highest praise possible. The organization catered to what we wanted to see and were quite flexible. Our group of six rode in a very comfortable nine passenger van. Our guide, Radoune, was knowledgeable, personable and very courteous. He took us to sites and shops that we would have missed had we been on our own. His English is very good and he helped us with translation and culture do’s and don’ts.
+                </p>
+            </div>
+        
+        </div>
+
+
+        <div class="reviewbox">
+        
+            <div class="team-desc">
+
+                <div class="author">
+                    <div class="author-image">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=100&h=-1&s=1">
+                    </div>
+                    <div class="author-details">
+                        <h4>Eti F</h4>
+                        <span>Paramus, NJ</span>
+                    </div>
+                    <div class="rating">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <h2>Great trip with Siroco.</h2>
+                <p>We had a wonderful trip with Siroco tours. We were two couples in a 8-seat minivan. Our guide, Mohamed, went above and beyond to ensure we have fun, accomplish all we wanted to do and enjoy the country, cuisine and excursions. He took us to local restaurants that were much better than the touristic ones. Alexandra and Leonor had a couple of zoom meeting with us prior to the trip and ensured all our questions and concerns were addressed and tailored the trip to our wishes.
+                    Overall, we had a very nice trip.
+                </p>
+            </div>
+        
+        </div>
+
+        
+        
+    </div>
+
+    <a href="https://www.tripadvisor.com/Attraction_Review-g293732-d8442728-Reviews-Siroco_Tours-Casablanca_Casablanca_Settat.html">Explore our Tours</a>
+</div>
+
+<style>
+    .contact-1 {
+    background-color: #fff;
+}
+.article.review-main {
+    margin-bottom: 60px;
+}
+</style>
+
+
+{{ end }}
+
+
+

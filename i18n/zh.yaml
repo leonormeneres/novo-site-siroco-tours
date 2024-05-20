@@ -1,0 +1,48 @@
+# HOME
+# Header
+- id: "home_title"
+  translation: "Siroco Tours"
+- id: "home_subtitle"
+  translation: "难忘的旅程"
+- id: "home_cta_button"
+  translation: "开始探索"
+- id: "heading_container"
+  translation: "Our Most Popular Tours"
+- id: "sub_container1"
+  translation: "Travel to Morocco in confortable, safe and joyful envoirement"
+- id: "sub_container2"
+  translation: "All our tours are customizable and can be adapted to your preferences"
+
+# 4 CARDS 
+- id: "4cards"
+  translation: "Our Services Include"
+# 1st CARD
+- id: "title-card1"
+  translation: "Original Itinerary"
+- id: "text-card1"
+  translation: "We specialize in designing original itineraries, for you to explore the true Morocco, away from the mass tourism routes. "
+# 2nd CARD
+- id: "title-card2"
+  translation: "24/7 Assistance"
+- id: "text-card2"
+  translation: "From the first contact, we will be available to calirfy any issue or to assist you with anything you need, via e-mail or WhatsApp."
+# 3rd CARD
+- id: "title-card3"
+  translation: "Quality Accommodations"
+- id: "text-card3"
+  translation: "The accommodations we carefully select have a typical Moroccan decoration and are of great quality and charm."
+# 4th CARD
+- id: "title-card4"
+  translation: "Private Transportation"
+- id: "text-card4"
+  translation: "Our cars and minivans are comfortable, new, with heating and AC and officially licensed for tourism by the Government of Morocco and with insurance for our travellers."
+
+#1st BANNER
+- id: "1st_banner"
+  translation: "Our tours are especially designed for you."
+- id: "cta_btn_arrow1"
+  translation: "Plan your trip"
+
+#BLOG BUTTON -- END OF PAGE
+- id: "blog"
+  translation: "Read more on our blog"

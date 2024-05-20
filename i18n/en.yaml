@@ -1,0 +1,207 @@
+# HOME
+# Header
+- id: "home_title"
+  translation: "Siroco Tours"
+- id: "home_subtitle"
+  translation: "Private tours in Morocco designed especially for you"
+- id: "home_cta_button"
+  translation: "Explore Our Tours"
+- id: "heading_container"
+  translation: "Our Most Popular Tours"
+- id: "sub_container1"
+  translation: "Travel to Morocco in a confortable, safe and joyful envoirement"
+- id: "sub_container2"
+  translation: "Our tours are customizable and can be adapted to your preferences"
+# 4 CARDS 
+- id: "4cards"
+  translation: "Our Services Include"
+# 1st CARD
+- id: "title-card1"
+  translation: "Original Itinerary"
+- id: "text-card1"
+  translation: "We specialize in designing original itineraries, for you to explore the true Morocco, away from the mass tourism routes. "
+# 2nd CARD
+- id: "title-card2"
+  translation: "24/7 Assistance"
+- id: "text-card2"
+  translation: "From the first contact, we will be available to calirfy any issue or to assist you with anything you need, via e-mail or WhatsApp."
+# 3rd CARD
+- id: "title-card3"
+  translation: "Quality Accommodations"
+- id: "text-card3"
+  translation: "The accommodations we carefully select have a typical Moroccan decoration and are of great quality and charm."
+# 4th CARD
+- id: "title-card4"
+  translation: "Private Transportation"
+- id: "text-card4"
+  translation: "Our cars and minivans are comfortable, new, with heating and AC and officially licensed for tourism and with insurance for our travellers."
+
+#1st BANNER
+- id: "1st_banner_title"
+  translation: "Original Itinerary"
+- id: "1st_banner"
+  translation: "Contact us to plan the perfect trip"
+- id: "cta_btn_arrow1"
+  translation: "Plan your trip"
+
+#tripadvisor
+- id: "trip_advisor_text"
+  translation: "#1 on TripAdvisor with more than 1000 reviews"
+
+#2nd BANNER
+- id: "2nd_banner_title"
+  translation: "Trips at your own rhythm"
+- id: "2nd_banner"
+  translation: "We will be by your side to guide you in a comfortable and safe envoirnment"
+- id: "cta_btn_arrow2"
+  translation: "Get to know us"
+
+#section1
+- id: "section1_title"
+  translation: "Dedicated guides" 
+- id: "section1_sub"
+  translation: "Quality transportation and carefully selected accommodations"
+
+#3rd BANNER
+- id: "3rd_banner_title"
+  translation: "Break your routine"
+- id: "3rd_banner"
+  translation: "Discover many extra activities that will enrich your experience and make it even more memorable"
+- id: "cta_btn_arrow3"
+  translation: " explore activites"
+
+#testimony left - this is the title of this section the dev used from old website layout
+
+- id: "testimony_title_left"
+  translation: "How does it work?"
+- id: "click_on_item"
+  translation: "Click on one item to read more"
+- id: "block_1"
+  translation: "Contact us for more information!"
+- id: "block_1_text"
+  translation: "Feel free to talk to us, no strings attached! You can send us an E-mail, WhatsApp message, fill in our detailed form or call us on our phone number. We are here to help!"
+- id: "block_2"
+  translation: "Clarify your doubts directly with one of our attentive travel operators."
+- id: "block_2_text"
+  translation: "We want to understand what your preferences are and advise you the best way possible. Let's create the perfect trip, suited to your needs and wishes."
+- id: "block_3"
+  translation: "Straightforward and detail oriented communication."
+- id: "block_3_text"
+  translation: "We will provide an itinerary suggestion that can be crafted to your preferences. After you have decided to travel, we will confirm the reservation immediately and send you a travel guide with everything you need to know and the final details!"
+- id: "block_4"
+  translation: "Relax and enjoy your trip!"
+- id: "block_4_text"
+  translation: "With the attentive company of one of our experienced English speaking private guides, you will get to know the real Morocco, away from mass tourism routes and explore its culture by contacing with local people."
+
+#testimony right - this is the title of this section the dev used from old website layout
+
+- id: "testimony_title_right"
+  translation: "What do we offer?"
+
+- id: "block_5"
+  translation: "Cancellation Flexibility"
+- id: "block_5_text"
+  translation: "After your trip is confirmed, you can cancel it one month to two weeks before the start date, depending on what type of accommodations you choose. Because every trip is unique, the cancellation policy may vary depending on the itinerary."
+- id: "block_6"
+  translation: "Carefully Selected Accommodations"
+- id: "block_6_text"
+  translation: "The accommodations that we suggest are curated by our experienced travel operators, who travel regularly to Morocco themselves. We value comfort, presentation and location and always prioritize lodgings that represent the authentic moroccan charm."
+- id: "block_7"
+  translation: "Safe and Responsible Travel"
+- id: "block_7_text"
+  translation: "All our cars and minivans are comfortable, new, with heating and AC and officially licensed for tourism by the Government of Morocco and with insurance for our travellers."
+- id: "block_8"
+  translation: "Great Suggestions: From restaurants to activities!"
+- id: "block_8_text"
+  translation: "When you go to Morocco, rest assured you will try many wonderful dishes!  Each country's gastronomy is definitely one of the most memorable aspects of a lifetime trip. We will give you suggestions and show you the local delicacies of each place."
+
+#BLOG BUTTON -- END OF PAGE
+- id: "blog"
+  translation: "Read more on our blog"
+
+#CONTACT FORM 
+- id: "title-1-contact"
+  translation: "We would love to hear from you"
+
+- id: "subtitle-contact"
+  translation: "Please submit your information and we will get back to you."
+
+- id: "phone-number-placeholder"
+  translation: "Phone Number"
+
+- id: "name-placeholder"
+  translation: "Name"
+
+- id: "number-of-people"
+  translation: "Number of People"
+
+- id: "message-placeholder"
+  translation: "Write your message here"
+
+- id: "points"
+  translation: "Points of Interesse"
+
+- id: "point1"
+  translation: "Desert"
+
+- id: "point2"
+  translation: "Imperial Cities"
+
+- id: "point3"
+  translation: "History and Culture"
+
+- id: "point4"
+  translation: "Nature & Well-Being"
+
+- id: "point5"
+  translation: "Beach & Sea"
+
+- id: "send-request"
+  translation: "Send Request"
+
+#TEAM 
+
+- id: "who-are-we-h2"
+  translation: "Who are we?"
+
+- id: "who-are-we-p"
+  translation: "We are a family from Portugal who, with the collaboration of our team in Morocco, plan personalized tours through Moroccan lands. Supported by experienced, highly qualified Moroccan guides, it is our goal to share the breathtaking charms and mysteries of Morocco with you. Always with a historical component associated with traditional culture and art, we intend to give the opportunity to get to know the genuine Morocco that is unknown to the masses of tourists.
+Always in absolute safety and in a responsible, but relaxed and fun environment."
+
+- id: "meet-our-team"
+  translation: "MEET OUR TEAM"
+
+- id: "alex1p"
+  translation: 'Encantada por este país mágico, motivou-se por este projecto de colaborar como relações púbicas nesta empresa. Aqui sente que pode pôr ao serviço de cada viajante a sua intuição e talento em perceber exatamente os desejos e expectativas de cada um, ajudando personalizadamente, e com prazer, a construir a “aquela viagem” inesquecível e marcante.'
+
+- id: "alex2p"
+  translation: "Fala Português, Inglês, Espanhol e Francês."
+
+- id: "pedro1p"
+  translation: 'Após muitas viagens a Marrocos, descobrindo os inúmeros encantos e paz que este país tem para oferecer, dedica-se a poder apresentar e partilhar todas as suas aventuras por esta terra africana. Tem cursos de Física e Matemática Financeira.'
+
+- id: "pedro2p"
+  translation: "Fala Português, Inglês, Alemão e Espanhol."
+
+- id: "mono1p"
+  translation: 'Tem 15 anos de experiência em turismo e é licenciado em literatura espanhola, pela Universidade de Fes. Natural do deserto, conhece como ninguém o Sahara, as tradições nómadas e a cultura Berber. Perfecionista, dedicado, alegre e hospitaleiro, Mohammed conhece todos os recantos e histórias de Marrocos e fará tudo para concretizar as suas férias de sonho.'
+
+- id: "mono2p"
+  translation: "Fala Espanhol, Português, Inglês, Árabe e Berbere."
+
+- id: "rachid1p"
+  translation: 'Rachid tem 15 anos de experiência em turismo. É um profundo conhecedor do seu país e vai sempre um passo mais à frente para que os nosso viajantes saiam desta aventura com as melhores recordações deste incrível país. Simpático, culto e divertido, está sempre atento às necessidades de cada um dando um sabor único a cada viagem.'
+
+- id: "rachid2p"
+  translation: "Fala Espanhol, Português, Francês, Árabe e Berbere."
+
+#FOOTER 
+
+- id: "legal"
+  translation: "Siroco Tours is property of the moroccan company SOCIÉTÉ MONO TOURS, S.A.R.L."
+  
+- id: "legal2"
+  translation: "Address: 4 Rue Al Yarmouke, Casablanca 20100, Morocco"
+
+- id: "legal3"
+  translation: "Registre de COMMERCE 447315"

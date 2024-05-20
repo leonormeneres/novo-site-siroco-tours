@@ -1,0 +1,252 @@
+{{ define "main" }}
+
+{{ $websiteDomain := $.Site.BaseURL }}
+
+{{ $__tower_sky_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__tower_sky_bg.jpg" }}
+<div id="cover-tours" class= "tour-cover" style="background-image: url('{{ $__tower_sky_bg.RelPermalink }}')">
+
+  <div id="title" class="title">
+    <div class="category"></div>
+    <div class="main">Popular Tours</div>
+    <div class="sub">Explore our best suggestions</div>
+  </div>
+
+</div>
+
+
+<div class="blog-destinations">
+  
+</div>
+
+
+<div class="article slanted2" id="tour" class="margin-article-tour">
+  <div class="wrap">
+    <div class="article_title">{{ T "title-tours-list"}}</div>
+    <div class="article_paragraph">
+{{ T "text-tours-list"}}
+    </div>
+  </div>
+</div>
+
+<div class="tours_container tour-page">
+  {{ partial "tours-main-tiles.html" . }}
+
+  <!-- tours go inside tour-container-grid-->
+
+  <div class="tour-container-grid">
+
+
+    <!--Tour-->
+
+    {{ with $.Site.GetPage "tours" "14days-nature-and-culture" }}
+    <a href="{{ .Permalink }}">
+    {{ $altText := .Params.Alt}}
+      <div class="tour-card">
+  
+        {{ with .Params.header_image }}
+        {{ $imagePath := printf "en/%s" . }}
+          {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+          <img src="{{ $imgURL }}" alt="{{$altText}}">
+        {{ end }}
+
+
+        <div class="description-overlay">
+          <div class="overlay-text-title">{{ .Title }}</div>
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
+
+ 
+
+    {{ with $.Site.GetPage "tours" "Wonders_of_Morocco" }}
+    <a href="{{ .Permalink }}">
+    {{ $altText := .Params.Alt}}
+      <div class="tour-card">
+     
+        {{ with .Params.header_image }}
+        {{ $imagePath := printf "en/%s" . }}
+          {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+          <img src="{{ $imgURL }}" alt="{{$altText}}">
+        {{ end }}
+
+        <div class="description-overlay">
+          <div class="overlay-text-title">{{ .Title }}</div>
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
+
+
+
+  <!-- paginator -->
+  <div class="center">
+    {{ partial "paginator.html" . }}
+  </div>
+
+</div>
+
+{{ partial "tours-main-tiles2.html" . }}
+<div class="tour-container-grid">
+
+
+  <!--Tour-->
+
+  {{ with $.Site.GetPage "tours" "Wonders_of_Morocco" }}
+  <a href="{{ .Permalink }}">
+  {{ $altText := .Params.Alt}}
+    <div class="tour-card">
+   
+      {{ with .Params.header_image }}
+      {{ $imagePath := printf "en/%s" . }}
+        {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+        <img src="{{ $imgURL }}" alt="{{$altText}}">
+      {{ end }}
+
+      <div class="description-overlay">
+        <div class="overlay-text-title">{{ .Title }}</div>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+
+
+
+  {{ with $.Site.GetPage "tours" "Wonders_of_Morocco" }}
+  <a href="{{ .Permalink }}">
+  {{ $altText := .Params.Alt}}
+    <div class="tour-card">
+  
+      {{ with .Params.header_image }}
+      {{ $imagePath := printf "en/%s" . }}
+        {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+        <img src="{{ $imgURL }}" alt="{{$altText}}">
+      {{ end }}
+
+      <div class="description-overlay">
+        <div class="overlay-text-title">{{ .Title }}</div>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy</p>
+        <!-- <p>{{ .Params.description }}</p> -->
+      </div>
+    </div>
+  </a>
+  {{ end }}
+
+
+
+<!-- paginator -->
+<div class="center">
+  {{ partial "paginator.html" . }}
+</div>
+
+</div>
+
+{{ partial "tours-main-tiles3.html" . }}
+
+<div class="article review-main">
+  <div class="center-title">
+      <h1 class="">Reviews</h1>
+  </div>
+  <div class="review_wrap">
+      
+      <div class="reviewbox">
+      
+          <div class="team-desc">
+
+              <div class="author">
+                  <div class="author-image">
+                      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/df/2b/default-avatar-2020-39.jpg?w=100&h=-1&s=1">
+                  </div>
+                  <div class="author-details">
+                      <h4>Lisa M</h4>
+                      <span>Newcastle</span>
+                  </div>
+                  <div class="rating">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+              </div>
+
+              <h2>Sirocco Tours does it again!</h2>
+              <p>I had the pleasure of visiting Morocco twice in 18 months with Sirocco Tours and both trips were amazing. This time our guide Redoune and our driver Issa were leading the way. Both fantastic guys and we laughed a lot and there wasn’t a question they couldn’t answer about their beautiful country. Morocco has my heart and Sirocco has played a big part in that with humble, funny, knowledgeable guides and for the price, you get plenty for your money, don’t hesitate, book now!
+
+              </p>
+          </div>
+      
+      </div>
+
+
+      <div class="reviewbox">
+      
+          <div class="team-desc">
+
+              <div class="author">
+                  <div class="author-image">
+                      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e9/bb/default-avatar-2020-65.jpg?w=100&h=-1&s=1">
+                  </div>
+                  <div class="author-details">
+                      <h4>Elizabeth W</h4>
+                      <span>Charlotte, NC</span>
+                  </div>
+                  <div class="rating">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+              </div>
+
+              <h2>Siri I Tours Ensured a Wonderful Experience</h2>
+              <p>I give Sirico Tours the highest praise possible. The organization catered to what we wanted to see and were quite flexible. Our group of six rode in a very comfortable nine passenger van. Our guide, Radoune, was knowledgeable, personable and very courteous. He took us to sites and shops that we would have missed had we been on our own. His English is very good and he helped us with translation and culture do’s and don’ts.
+              </p>
+          </div>
+      
+      </div>     
+
+      <div class="reviewbox" href="">
+      
+          <div class="team-desc">
+
+              <div class="author">
+                  <div class="author-image">
+                      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/ef/9c/default-avatar-2020-14.jpg?w=100&h=-1&s=1">
+                  </div>
+                  <div class="author-details">
+                      <h4>Eti F</h4>
+                      <span>Paramus, NJ</span>
+                  </div>
+                  <div class="rating">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+              </div>
+
+              <h2>Great trip with Siroco.</h2>
+              <p>We had a wonderful trip with Siroco tours. We were two couples in a 8-seat minivan. Our guide, Mohamed, went above and beyond to ensure we have fun, accomplish all we wanted to do and enjoy the country, cuisine and excursions. He took us to local restaurants that were much better than the touristic ones. Alexandra and Leonor had a couple of zoom meeting with us prior to the trip and ensured all our questions and concerns were addressed and tailored the trip to our wishes.
+                  Overall, we had a very nice trip.
+              </p>
+          </div>
+      
+      </div>
+      
+  </div>
+
+  <a href="https://www.tripadvisor.com/Attraction_Review-g293732-d8442728-Reviews-Siroco_Tours-Casablanca_Casablanca_Settat.html">Explore our Tours</a>
+</div>
+
+</div>
+
+{{ end }}

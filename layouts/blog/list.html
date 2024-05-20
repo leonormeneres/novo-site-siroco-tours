@@ -1,0 +1,171 @@
+{{ define "main" }}
+
+<div id="blog_cover">
+
+  <div id="title" class="title">
+    <div class="category">Blog</div>
+    <div class="main">Siroco Tours</div>
+  </div>
+
+</div>
+
+
+<div class="blog-destinations">
+  
+  <div class="blog-destination-image">
+
+  </div>
+
+  <div class="blog-destination-places">
+    <h3>Destinations</h3>
+    <ul>
+      <li><a href="#">Africa</a></li>
+      <li><a href="#">India</a></li>
+      <li><a href="#">Australia</a></li>
+      <li><a href="#">LAtin America</a></li>
+      <li><a href="#">Middle East</a></li>
+      <li><a href="#">Europe</a></li>
+      <li><a href="#">United Kingdom</a></li>
+      <li><a href="#">South Pacific</a></li>
+      <li><a href="#">Polar Regions</a></li>
+
+    </ul>
+  </div>
+</div>
+
+
+
+<div id="blog" class="slanted travel-guide">
+  <h2>Travel Guide</h2>
+  <div class="travel-guide-wrap">
+
+  {{ range (.Paginator 6).Pages }}
+
+  <div class="article">
+    <div class="wrap">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.header_image }}
+			{{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+			{{ if $imageResource }}
+				{{ $resized := $imageResource.Resize "980x" }}
+				{{ if $resized }}
+					<img src="{{ $resized.RelPermalink }}" class="article_image">
+				 {{ else }}
+					<p>Image resizing failed.</p>
+				 {{ end }}
+			{{ else }}
+				<p>Image not found or cannot be processed.</p>
+			{{ end }}
+        {{ end }}
+        <div class="article_title">{{ .Title }}</div>
+      </a>
+      <div class="article_paragraph">
+        <p>{{ .Params.description }}</p>
+      </div>
+  </div>
+</div>
+  {{ end }}
+</div>
+
+  <!-- paginator -->
+  <div class="center">
+    {{ partial "paginator.html" . }}
+  </div>
+
+</div>
+
+
+
+
+
+<div class="blog-tour">
+  <h2>Related Tours</h2>
+<div id="slider" class="slider">
+  <div class="wrapper">
+    <div id="slides" class="slides">
+      {{ range (.Paginator 10).Pages }}
+
+      <span class="slide">
+        {{ with .Params.header_image }}
+        {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+        {{ if $imageResource }}
+          {{ if $imageResource }}
+        <img src="{{ $imageResource.RelPermalink }}">
+        {{ else }}
+      <p>Image resizing failed.</p>
+    {{ end }}
+  {{ else }}
+    <p>Image not found or cannot be processed.</p>
+  {{ end }}
+    {{ end }}
+        <div class="slide-text">
+          <h2>{{ .Title }}</h2>
+          <a href="{{ .RelPermalink }}">Read more</a>
+        </div>
+      </span>
+      {{ end }}
+
+    </div>
+  </div>
+  <a id="prev" class="control prev"></a>
+  <a id="next" class="control next"></a>
+  <div class="dots">
+    
+  </div>
+</div>
+
+{{ $language := .Site.Language.Lang }}
+{{ $menu := index .Site.Menus "main" }}
+{{ $toursPage := "" }}
+
+{{ range $menu }}
+  {{ if eq .Identifier "tours" }}
+    {{ $toursPage = . }}
+  {{ end }}
+{{ end }}
+   <!--EXPLORE TOURS BUTTON-->
+   <a href="{{ with $toursPage }}{{ .URL }}{{ end }}" > 
+    <div class="blog-cta">
+     
+        {{ T "home_cta_button" }}
+     
+    </div> </a>
+
+  <!-- "SERVICES" 4 CARDS -->
+
+
+</div>
+<!-- <div id="tiles" class="slanted">
+  <div class="wrap">
+    {{ range (.Paginator 6).Pages }}
+    <div class="tile">
+      <a href="{{ .RelPermalink }}">
+        {{ with .Params.header_image }}
+			{{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+			{{ if $imageResource }}
+				{{ $resized := $imageResource.Resize "307x307" }}
+				{{ if $resized }}
+					<div class="img" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+				{{ else }}
+					<p>Image resizing failed.</p>
+				{{ end }}
+			{{ else }}
+				<p>Image not found or cannot be processed.</p>
+			{{ end }}
+        {{ end }}
+        <div class="article_title">{{ .Title }}</div>
+      </a>
+      <div class="article_paragraph">
+        <p>{{ .Params.description }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="center">
+    {{ partial "paginator.html" . }}
+  </div>
+
+</div> -->
+
+{{ end }}

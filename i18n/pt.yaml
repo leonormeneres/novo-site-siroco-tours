@@ -1,0 +1,231 @@
+# HOME
+# Header
+- id: "home_title"
+  translation: "Siroco Tours"
+- id: "home_subtitle"
+  translation: "Viagens privadas em Marrocos com conforto e segurança"
+- id: "home_cta_button"
+  translation: "Explorar mais tours"
+- id: "heading_container"
+  translation: "Our Most Popular Tours"
+- id: "sub_container1"
+  translation: "Viaje para Marrocos em segurança e conforto" 
+- id: "sub_container2"
+  translation: "Todos os tours são presonalizáveis e podem ser adaptados ao seu gosto"
+
+# 4 CARDS 
+- id: "4cards"
+  translation: "Os Nossos Serviços Incluem"
+# 1st CARD
+- id: "title-card1"
+  translation: "Itinerário Original"
+- id: "text-card1"
+  translation: "Somos especializados em planear itinerários originais para você explorar o verdadeiro Marrocos, longe das rotas de \"turismo de massa\". O nosso objetivo prestar um serviço pessoal e sugerir ideias originais que se adequem ao seus estilo e preferências."
+# 2nd CARD
+- id: "title-card2"
+  translation: " Assitência 24h por Dia "
+- id: "text-card2"
+  translation: "Desde o primeiro contacto, estaremos ao seu dispor para clarificar todas as suas dúvidas e assistir em qualquer momento, via e-mail ou WhatsApp."
+# 3rd CARD
+- id: "title-card3"
+  translation: "Alojamentos de Qualidade"
+- id: "text-card3"
+  translation: "Os alojamentos que escolhemos cuidadosamente para si têm uma decoração típica marroquina e são de grande qualidade e encanto. A parte gastronómica também é excelente. Somos muito cuidadosos na escolha dos hotéis, estão todos bem situados e fazem parte do encanto desta viagem."
+# 4th CARD
+- id: "title-card4"
+  translation: "Transporte Privado"
+- id: "text-card4"
+  translation: "Os nossos automóveis são confortáveis, novos, com ar condicionado e todos com licença oficial para turismo pelo Governo de Marrocos, pelo que têm um seguro bastante completo inclusivamente para os nossos clientes."
+
+#1st BANNER
+- id: "1st_banner_title"
+  translation: "Itinerário Original"
+- id: "1st_banner"
+  translation: "As nossas tours são desenhadas ao seu gosto"
+- id: "cta_btn_arrow1"
+  translation: "Planeie a sua viagem"
+
+#tripadvisor
+- id: "trip_advisor_text"
+  translation: "#1 no TripAdvisor com mais de 1000 Reviews"
+
+#2nd BANNER
+- id: "2nd_banner_title"
+  translation: "Viagens ao seu ritmo"
+- id: "2nd_banner"
+  translation: "Esatremos sempre ao seu lado para o guiar em conforto e segurança"
+- id: "cta_btn_arrow2"
+  translation: "Conheça a equipa"
+
+#section1
+- id: "section1_title"
+  translation: "Guias Dedicados" 
+- id: "section1_sub"
+  translation: "Transportes e acomodação de qualidade cuidadosamente selecionados"
+
+#3rd BANNER
+- id: "3rd_banner_title"
+  translation: "quebre a rotina"
+- id: "3rd_banner"
+  translation: "Proporcianamos variadas atividades extra para tornar a sua expereência ainda mais aliciante"
+- id: "cta_btn_arrow3"
+  translation: "explore as atividades"
+
+#testimony left - this is the title of this section the dev used from old website layout
+
+- id: "testimony_title_left"
+  translation: "How does it work?"
+- id: "click_on_item"
+  translation: "Click on one item to read more"
+- id: "block_1"
+  translation: "Contact us for more information!"
+- id: "block_1_text"
+  translation: "Feel free to talk to us, no strings attached! You can send us an E-mail, WhatsApp message, fill in our detailed form or call us on our phone number. We are here to help!"
+- id: "block_2"
+  translation: "Clarify your doubts directly with one of our attentive travel operators."
+- id: "block_2_text"
+  translation: "We want to understand what your preferences are and advise you the best way possible. Let's create the perfect trip, suited to your needs and wishes."
+- id: "block_3"
+  translation: "Straighforward and detail oriented communication."
+- id: "block_3_text"
+  translation: "We will provide an itinerary suggestion that can be crafted to your preferences. After you have decided to travel, we will confirm the reservation immediately and send you a travel guide with everything you need to know and the final details!"
+- id: "block_4"
+  translation: "Relax and enjoy your trip!"
+- id: "block_4_text"
+  translation: "With the attentive company of one of our experienced English speaking private guides, you will get to know the real Morocco, away from mass tourism routes and explore its culture by contacing with local people."
+
+#testimony right - this is the title of this section the dev used from old website layout
+
+- id: "testimony_title_right"
+  translation: "What do we offer?"
+
+- id: "block_5"
+  translation: "Cancellation Flexibility"
+- id: "block_5_text"
+  translation: "After your trip is confirmed, you can cancel it one month to two weeks before the start date, depending on what type of accommodations you choose. Because every trip is unique, the cancellation policy may vary depending on the itinerary."
+- id: "block_6"
+  translation: "Carefully Selected Accommodations"
+- id: "block_6_text"
+  translation: "The accommodations that we suggest are curated by our experienced travel operators, who travel regularly to Morocco themselves. We value comfort, presentation and location and always prioritize lodgings that represent the authenic moroccan charm."
+- id: "block_7"
+  translation: "Safe and Responsible Travel"
+- id: "block_7_text"
+  translation: "All our cars and minivans are comfortable, new, with heating and AC and officially licensed for tourism by the Government of Morocco and with insurance for our travellers."
+- id: "block_8"
+  translation: "Great Suggestions: From restaurants to activities!"
+- id: "block_8_text"
+  translation: "When you go to Morocco, rest assured you will eat well!  Each country's gastronomy is definitely one of the most memorable aspects of a lifetime trip. We will give you suggestions and show you the local delacies of each place."
+
+
+#BLOG BUTTON -- END OF PAGE
+- id: "blog"
+  translation: "Leia mais no nosso blog"
+
+
+#single tour 
+- id: "overview"
+  translation: "Breve Descrição"
+
+
+#CONTACT FORM 
+- id: "title-1-contact"
+  translation: "Entre em contacto connosco!"
+
+- id: "subtitle-contact"
+  translation: "Por favor preencha os campos e de seguida submeta o formulário. Iremos responder o mais breve possível."
+
+- id: "phone-number-placeholder"
+  translation: "Número de telefone"
+
+- id: "name-placeholder"
+  translation: "Nome"
+
+- id: "number-of-people"
+  translation: "Número de Pessoas"
+
+- id: "message-placeholder"
+  translation: "Escreva aqui a sua mensagem"
+
+- id: "points"
+  translation: "Pontos de Interesse"
+
+- id: "point1"
+  translation: "Deserto"
+
+- id: "point2"
+  translation: "Cidades Imperiais"
+
+- id: "point3"
+  translation: "História e Cultura"
+
+- id: "point4"
+  translation: "Natureza e Bem-Estar"
+
+- id: "point5"
+  translation: "Praia e Mar"
+
+- id: "send-request"
+  translation: "Enviar"
+
+#TEAM
+
+- id: "who-are-we-h2"
+  translation: "Quem Somos"
+
+- id: "who-are-we-p"
+  translation: "Somos uma família de Portugal que, com a colaboração de colaboradores locais, planeia tours personalizados por terras marroquinas. Apoiados por experientes guias marroquinos, altamente qualificados, é nosso objetivo partilhar os arrebatadores encantos e mistérios de Marrocos consigo. Sempre com uma componente histórica associada à cultura e arte tradicionais, pretendemos dar a oportunidade de conhecer o Marrocos genuíno e desconhecido das grandes massas turísticas.
+Sempre em absoluta segurança e num ambiente responsável, mas descontraído e divertido."
+
+- id: "meet-our-team"
+  translation: "CONHEÇA A NOSSA EQUIPA"
+
+- id: "alex1p"
+  translation: 'Encantada por este país mágico, motivou-se por este projecto de colaborar como relações púbicas nesta empresa. Aqui sente que pode pôr ao serviço de cada viajante a sua intuição e talento em perceber exatamente os desejos e expectativas de cada um, ajudando personalizadamente, e com prazer, a construir a “aquela viagem” inesquecível e marcante.'
+
+- id: "alex2p"
+  translation: "Fala Português, Inglês, Espanhol e Francês."
+
+- id: "pedro1p"
+  translation: 'Após muitas viagens a Marrocos, descobrindo os inúmeros encantos e paz que este país tem para oferecer, dedica-se a poder apresentar e partilhar todas as suas aventuras por esta terra africana. Tem cursos de Física e Matemática Financeira.'
+
+- id: "pedro2p"
+  translation: "Fala Português, Inglês, Alemão e Espanhol."
+
+- id: "mono1p"
+  translation: 'Tem 15 anos de experiência em turismo e é licenciado em literatura espanhola, pela Universidade de Fes. Natural do deserto, conhece como ninguém o Sahara, as tradições nómadas e a cultura Berber. Perfecionista, dedicado, alegre e hospitaleiro, Mohammed conhece todos os recantos e histórias de Marrocos e fará tudo para concretizar as suas férias de sonho.'
+
+- id: "mono2p"
+  translation: "Fala Espanhol, Português, Inglês, Árabe e Berbere."
+
+- id: "mono1p"
+  translation: 'Tem 15 anos de experiência em turismo e é licenciado em literatura espanhola, pela Universidade de Fes. Natural do deserto, conhece como ninguém o Sahara, as tradições nómadas e a cultura Berber. Perfecionista, dedicado, alegre e hospitaleiro, Mohammed conhece todos os recantos e histórias de Marrocos e fará tudo para concretizar as suas férias de sonho.'
+
+- id: "mono2p"
+  translation: "Fala Espanhol, Português, Inglês, Árabe e Berbere."
+
+- id: "rachid1p"
+  translation: 'Rachid tem 15 anos de experiência em turismo. É um profundo conhecedor do seu país e vai sempre um passo mais à frente para que os nosso viajantes saiam desta aventura com as melhores recordações deste incrível país. Simpático, culto e divertido, está sempre atento às necessidades de cada um dando um sabor único a cada viagem.'
+
+- id: "rachid2p"
+  translation: "Fala Espanhol, Português, Francês, Árabe e Berbere."
+
+#TOURS-LIST TITLE AND TEXT 
+
+- id: "title-tours-list"
+  translation: "Os Nossos Tours"
+
+- id: "text-tours-list"
+  translation: "As nossas viagens são essencialmente para viver no Marrocos, não apenas para vê-lo. Serão acompanhados por um guia experiente que conhece o seu país como a palma da sua mão. Mergulhe realmente na sua encantadora cultura e compartilhe rotinas com a população local, testemunhando um modo de vida que ainda remonta a séculos atrás.
+
+Se está interessado em conhecer o país e descobrir mais sobre os destinos convidamos a explorar as nossas sugestões de roteiro. Todos estes tours que pode ver abaixo, são personalizáveis a seu gosto. Iremos adaptar qualquer um às suas preferências e esclarecer todas as dúvidas que surgirem."
+
+#FOOTER 
+
+- id: "legal"
+  translation: "Siroco Tours é propriedade de SOCIÉTÉ MONO TOURS, S.A.R.L."
+ 
+- id: "legal2"
+  translation: "Endereço: 4 Rue Al Yarmouke, Casablanca 20100, Morocco"
+
+- id: "legal3"
+  translation: "Registre de COMMERCE 447315"

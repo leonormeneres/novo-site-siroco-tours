@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+{{ with .Params.header_image }}
+    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+    {{ if $imageResource }}
+		{{ $resized := $imageResource.Fill "1900x600" }}
+		{{ if $resized }}
+			<div id="cover" style="background-image: url('{{ $imageResource.RelPermalink }}')">
+		{{ else }}
+			<p>Image resizing failed.</p>
+		{{ end }}	
+    {{ else }}
+        <p>Image not found or cannot be processed.</p>
+    {{ end }}
+{{ end }}
+
+
+  <div id="title" class="title blog-title">
+    <div class="main">{{ .Title }}</div>
+    <div class="sub">Experience the best food Morocco has to offer</div>
+  </div>
+
+</div>
+
+<div id="tour" class="slanted single-blog">
+
+  <div class="wrap">
+    <div class="article_paragraph">
+      {{ .Content }}
+    </div>
+
+    <!-- {{ partial "contact-form.html" . }} -->
+
+  </div>
+
+</div>
+
+<div id="tiles" class="slanted single-tiles">
+  <h1>Related Blogs</h1>
+  <div class="wrap single-wrap">
+    {{ range first 3 (where (where .Site.Pages "Params.date" "lt" .Date) "Params.type" "blog") }}
+    <div class="tile">
+      {{ with .Params.header_image }}
+		{{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+		{{ if $imageResource }}
+			{{ $resized := $imageResource.Resize "350x" }}
+			{{ if $resized }}
+				<div class="img" style="background-image: url('{{ $resized.RelPermalink}}')"></div>
+			{{ else }}
+				<p>Image resizing failed.</p>
+			{{ end }}
+		{{ else }}
+			<p>Image not found or cannot be processed.</p>
+		{{ end }}
+      {{ end }}
+      <a href="{{ .Permalink }}">
+        <div class="article_title">{{ .Title }}</div>
+        <div class="article_paragraph">
+          <p>{{ .Params.description }}</p>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+
+
+</div>
+
+{{ end }}

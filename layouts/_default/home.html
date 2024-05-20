@@ -1,0 +1,423 @@
+{{ define "main" }}
+
+{{ $websiteDomain := $.Site.BaseURL }} 
+
+{{ $__home_cover_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__home_cover_bg.jpg" }}
+<div id="cover" style="background-image: url('{{ $__home_cover_bg.RelPermalink }}')" class="home-cover">
+
+
+  <div id="title" class="title">
+    <div class="category">{{ T "home_title" }}</div>
+    <div class="main">{{ T "home_subtitle" }}</div>
+  
+  </div>
+  </div>
+
+<!--TOURS CONTAINER GRID-->
+
+<div id="tours_container_title" class="title">
+  
+ <div class="category2">{{ T "sub_container1" }}</div>
+ <div class="category2">{{ T "sub_container2" }}</div>
+
+</div>
+  <div class="tours_container home_tours">
+    {{ partial "tours-main-tiles.html" . }}
+   
+    <div class="tour-container-grid">
+
+    <!--Tour-->
+
+      {{ with $.Site.GetPage "tours" "14days-nature-and-culture" }}
+      <a href="{{ .Permalink }}">
+      {{ $altText := .Params.Alt }}
+        <div class="tour-card">
+         <!-- <div class="overlay-text2"></div> -->
+   
+          {{ with .Params.header_image }}
+          {{ $imagePath := printf "en/%s" . }}
+            {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+            <img src="{{ $imgURL }}" alt="{{$altText}}">
+          {{ end }}
+
+
+          <div class="description-overlay">
+            <div class="overlay-text">{{ .Title }}</div>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+
+   <!--Tour-->
+
+{{ with $.Site.GetPage "tours" "5days-mrk-deserto" }}
+<a href="{{ .Permalink }}">
+{{ $altText := .Params.Alt }}
+  <div class="tour-card">
+ 
+    {{ with .Params.header_image }}
+    {{ $imagePath := printf "en/%s" . }}
+      {{ $imgURL := printf "%s%s" $websiteDomain $imagePath }}
+      <img src="{{ $imgURL }}" alt="{{$altText}}">
+    {{ end }}
+    <div class="description-overlay">
+      <div class="overlay-text">{{ .Title }}</div>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    </div>
+  </div>
+</a>
+{{ end }}
+
+
+      </div>
+      
+    </div>
+
+    {{ $language := .Site.Language.Lang }}
+    {{ $menu := index .Site.Menus "main" }}
+    {{ $toursPage := "" }}
+    
+    {{ range $menu }}
+      {{ if eq .Identifier "tours" }}
+        {{ $toursPage = . }}
+      {{ end }}
+    {{ end }}
+    <!--EXPLORE TOURS BUTTON-->
+    <a href="{{ with $toursPage }}{{ .URL }}{{ end }}" > 
+      <div class="cta btn_arrow home-cta">
+       
+          {{ T "home_cta_button" }}
+       
+      </div> </a>
+
+    <!-- "SERVICES" 4 CARDS -->
+
+    <!-- <div class="category3">{{ T "4cards" }}</div> -->
+    <div class="card-container">
+      
+      <div class="info-card">
+        <img src="https://i.postimg.cc/66mT7pzG/route.png"></a>
+        <h3>{{ T "title-card1" }}</h3>
+        <p>{{ T "text-card1" }}</p>
+      </div>
+      
+      <div class="info-card">
+        <img src="https://i.postimg.cc/HkGx2vqY/24-hours.png">
+        <h3>{{ T "title-card2" }}</h3>
+        <p>{{ T "text-card2" }}</p>
+      </div>
+    
+      <div class="info-card">
+        <img src="https://i.postimg.cc/1X2zbv4K/accommodation.png">
+        <h3>{{ T "title-card3" }}</h3>
+        <p>{{ T "text-card3" }}</p>
+      </div>
+    
+      <div class="info-card">
+        <img src="https://i.postimg.cc/J4H0jCdY/car.png">
+        <h3>{{ T "title-card4" }}</h3>
+        <p>{{ T "text-card4" }}</p>
+      </div>
+    </div>
+ 
+      <!--FIRST BANNER-->
+
+{{ $__burro := ($.Site.GetPage "section" "uploads").Resources.GetMatch "burro.JPG" }}
+<div id="d_1" class="drawer slanted category-bgc" style="background-image: url('{{ $__burro.RelPermalink }}')">
+  <div class="title">
+    <div class="category">{{ T "1st_banner_title" }} </div>
+    <div class="main"> {{ T "1st_banner" }} </div>
+  </div>
+
+
+  {{ $language := .Site.Language.Lang }}
+  {{ $menu := index .Site.Menus "main" }}
+  {{ $contactPage := "" }}
+  
+  {{ range $menu }}
+    {{ if eq .Identifier "contact" }}
+      {{ $contactPage = . }}
+    {{ end }}
+  {{ end }}
+  <a href="{{ with $contactPage }}{{ .URL }}{{ end }}" >
+  <div class="cta btn_arrow">
+    
+      {{ T "cta_btn_arrow1" }}
+   
+  </div></a>
+
+</div>
+
+ <!--TRIP ADVISOR BUTTON-->
+
+<div id="d_2" class="drawer topograph slanted">
+  <div id="trip_advisor" >
+    <span id="trip_logo">
+      <img src="https://i.postimg.cc/HkjxF5TB/Tripadvisor-icon-logo-1.png" >
+      <!-- <i class="fab fa-tripadvisor"></i> -->
+    </span>
+    <br>
+    <span id="star_rating">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </span>
+  </div>
+  <div class="big">
+    {{ T "trip_advisor_text" }} 
+  </div>
+</div>
+
+ <!--«SECOND BANNER-->
+
+{{ $__desert_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__desert_bg.jpg" }}
+<div id="d_3" class="drawer slanted" style="background-image: url('{{ $__desert_bg.RelPermalink }}')">
+  <div class="title">
+    <div class="category">{{ T "2nd_banner_title" }}</div>
+    <div class="main caslon"> {{ T "2nd_banner" }} </div>
+  </div>
+
+  {{ $language := .Site.Language.Lang }}
+  {{ $menu := index .Site.Menus "main" }}
+  {{ $teamPage := "" }}
+  
+  {{ range $menu }}
+    {{ if eq .Identifier "team" }}
+      {{ $teamPage = . }}
+    {{ end }}
+  {{ end }}
+ <a href="{{ with $teamPage }}{{ .URL }}{{ end }}" >
+  <div class="cta btn_arrow">  
+  {{ T "cta_btn_arrow2" }} 
+  </div></a>
+</div>
+
+
+ <!--BETWEEN 2ND AND 3RD BANNER-->
+
+<div id="d_4" class="drawer topograph slanted">
+  <div class="category grey"> {{ T "section1_title" }} </div>
+  <div class="big">
+    {{ T "section1_sub" }} 
+  </div>
+</div>
+
+ <!--THIRD BANNER ATIVIDADES-->
+
+{{ $__candles_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__candles_bg.jpg" }}
+<div id="d_5" class="drawer slanted" style="background-image: url('{{ $__candles_bg.RelPermalink }}')">
+  <div class="title">
+    <div class="category">{{ T "3rd_banner_title" }}</div>
+    <div class="main">{{ T "3rd_banner" }}</div>
+  </div>
+  <div class="cta btn_arrow">{{ T "cta_btn_arrow3" }}</div>
+
+</div>
+
+ <!--TESTIMONY-->
+
+<div id="testimony" class="drawer slanted">
+
+
+
+    <div class="testimonial-block">
+      <div class="testimonials-sec">
+    
+    
+    
+    
+        <div class="testimonial-left">
+    
+          <div class="testimonial-left-inner">
+          <h3>{{ T "testimony_title_left" }}</h3>
+          <p><small>{{ T "click_on_item" }}</small></p>
+    
+    <div class="testimonials-wrapping">
+          <div class="textimonial-block">
+          <h4>{{ T "block_1" }}</h4>
+          <p> {{ T "block_1_text" }} </p>
+          </div>
+          
+          <div class="textimonial-block">
+            <h4>{{ T "block_2" }}</h4>
+            <p>{{ T "block_2_text" }}</p>
+            </div>
+          
+          
+            <div class="textimonial-block">
+              <h4>{{ T "block_3" }}</h4>
+              <p>{{ T "block_3_text" }}</p>
+              </div>
+          
+          
+              <div class="textimonial-block">
+                <h4>{{ T "block_4" }}</h4>
+                <p>{{ T "block_4_text" }}</p>
+                </div>
+              </div>
+             
+            </div>
+    
+    </div>
+    
+    <div class="middle-image">
+      <img src="https://i.postimg.cc/t4QpGkB7/Whats-App-Image-2023-12-26-at-1-37-26-PM.png">
+    </div>
+    
+        <div class="testimonial-right">
+          <div class="testimonial-right-inner">
+
+    
+          <h3>{{ T "testimony_title_right" }}</h3>
+          <p><small>{{ T "click_on_item" }}</small></p>
+    
+    <div class="testimonials-wrapping">
+      <div class="textimonial-block">
+        <h4>{{ T "block_5" }}</h4>
+        <p> {{ T "block_5_text" }} </p>
+        </div>
+        
+        <div class="textimonial-block">
+          <h4>{{ T "block_6" }}</h4>
+          <p>{{ T "block_6_text" }}</p>
+          </div>
+        
+        
+          <div class="textimonial-block">
+            <h4>{{ T "block_7" }}</h4>
+            <p>{{ T "block_7_text" }}</p>
+            </div>
+        
+        
+            <div class="textimonial-block">
+              <h4>{{ T "block_8" }}</h4>
+              <p>{{ T "block_8_text" }}</p>
+              </div>
+              </div>
+           </div>
+
+            </div>
+    
+      </div>
+    </div>
+
+    </div>
+ 
+
+
+
+
+
+
+<div class="article article-bgc">
+  <h1>Articles</h1>
+
+  <div class=" article-wrap" id="blog" >
+    <!-- <div class="article-content">
+      <div class="article_title">Article Title</div>
+      <div class="article_paragraph">
+        <p>We traveled through Morocco for 6 unforgettable days. We were a group of 18 people and I can say that it was an
+          incredible trip in the company of our guide Mohammed and our driver Adi.</p>
+        <p>He was exceptional from the first moment to the last day, always cheerful and well disposed. Mohammed is an
+          amazing guide, he explained everything about Moroccan culture, history, gastronomy, geography, and finally an
+          endless patience for all our questions.</p>
+        <p>He gave us peace of mind and wisdom, always safe and always available with a smile. We left Marrakesh, heading
+          for Ouarzazate and then to the desert, returning to Marrakesh. We visited incredible sites [...]</p>
+      </div>
+    </div>
+     <div class="article-image-img">
+    {{ $__article_hands_bg := ($.Site.GetPage "section" "uploads").Resources.GetMatch "__article_hands_bg.jpg" }}
+   
+    <img src="{{ $__article_hands_bg.RelPermalink }}" class="article_image">
+
+  </div>
+ 
+
+  </div> -->
+
+  <div id="slider" class="slider">
+    <div class="wrapper">
+      <div id="slides" class="slides">
+        {{ range (.Paginator 10).Pages }}
+
+        <span class="slide">
+          {{ with .Params.header_image }}
+          {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+          {{ if $imageResource }}
+            {{ if $imageResource }}
+          <img src="{{ $imageResource.RelPermalink }}">
+          {{ else }}
+        <p>Image resizing failed.</p>
+      {{ end }}
+    {{ else }}
+      <p>Image not found or cannot be processed.</p>
+    {{ end }}
+      {{ end }}
+          <div class="slide-text">
+            <h2>{{ .Title }}</h2>
+            <a href="{{ .RelPermalink }}">Read more</a>
+          </div>
+        </span>
+        {{ end }}
+
+      </div>
+    </div>
+    <a id="prev" class="control prev"></a>
+    <a id="next" class="control next"></a>
+    <div class="dots">
+      
+    </div>
+  </div>
+  
+
+
+
+
+
+  
+</div>
+
+
+
+{{ $language := .Site.Language.Lang }}
+{{ $menu := index .Site.Menus "main" }}
+{{ $blogPage := "" }}
+
+{{ range $menu }}
+  {{ if eq .Identifier "blog" }}
+    {{ $blogPage = . }}
+  {{ end }}
+{{ end }}
+<br><br><br><br>
+<div id="readmore">
+  <a href="{{ with $contactPage }}{{ .URL }}{{ end }}" >
+    {{ T "blog" }}
+  </a>
+</div>
+
+
+<style>
+  .contact-1
+  {
+    background-color: #fff;
+  }
+
+  .contact-1 form h1
+  {
+   text-align: left !important;
+  } 
+</style>
+
+
+{{ range $lang, $data := .Site.Data.data }}
+  <p>{{ $lang }}: <a href="{{ $data.url }}">{{ $data.url }}</a></p>
+{{ end }}
+
+{{ end }}
+
+

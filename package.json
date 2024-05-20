@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo",
+    "install": "curl -L -O https://github.com/gohugoio/hugo/releases/download/v0.111.3/hugo_0.111.3_Linux-64bit.tar.gz && tar -xzf hugo_0.111.3_Linux-64bit.tar.gz"
+  }
+}
