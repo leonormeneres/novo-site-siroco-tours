@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="138"
+   height="31"
+   viewBox="0 0 138 31"
+   fill="none"
+   version="1.1"
+   id="svg3767"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata3773">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3771" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     id="namedview3769"
+     showgrid="false"
+     inkscape:zoom="8.9054462"
+     inkscape:cx="68.354631"
+     inkscape:cy="3.5321951"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3767" />
+  <path
+     d="M15.5 0.96875C12.626 0.96875 9.81653 1.82099 7.42688 3.41771C5.03722 5.01442 3.17472 7.28389 2.07488 9.93913C0.975046 12.5944 0.687279 15.5161 1.24797 18.3349C1.80866 21.1537 3.19263 23.7429 5.22486 25.7751C7.25709 27.8074 9.84631 29.1913 12.6651 29.752C15.4839 30.3127 18.4056 30.025 21.0609 28.9251C23.7161 27.8253 25.9856 25.9628 27.5823 23.5731C29.179 21.1835 30.0313 18.374 30.0313 15.5C30.0313 11.6461 28.5003 7.94999 25.7752 5.22485C23.05 2.49972 19.3539 0.96875 15.5 0.96875V0.96875ZM8.71876 22.2812L11.7703 13.1266L17.8734 19.2297L8.71876 22.2812ZM19.2297 17.8734L13.1266 11.7703L22.2813 8.71875L19.2297 17.8734Z"
+     id="path3765"
+     style="fill:#fd7e14;fill-opacity:1"
+     fill="#4E66F8" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="35.259319"
+     y="20.444662"
+     id="text4606"><tspan
+       sodipodi:role="line"
+       id="tspan4604"
+       x="35.259319"
+       y="20.444662"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.33333302px;font-family:Poppins;-inkscape-font-specification:'Poppins, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">SIROCO TOURS</tspan></text>
+</svg>
