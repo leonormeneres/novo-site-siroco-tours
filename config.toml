@@ -119,3 +119,38 @@ formHiddenFormId = ""
         url = "/zh/contact/"
         name = "Contact"
         weight = 6
+  [languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+    formHiddenFormId = "FORM_ID_ES"
+    weight = 4
+      [[languages.es.menu.main]]
+        identifier = "home"
+        url = "/es/"
+        name = "Inicio"
+        weight = 1
+      [[languages.es.menu.main]]
+        identifier = "tours"
+        url = "/es/tours/"
+        name = "Tours"
+        weight = 2
+      [[languages.es.menu.main]]
+        identifier = "destinations"
+        url = "/es/destinos/"
+        name = "Destinos"
+        weight = 3
+      [[languages.es.menu.main]]
+        identifier = "blog"
+        url = "/es/blog/"
+        name = "Blog"
+        weight = 4
+      [[languages.es.menu.main]]
+        identifier = "team"
+        url = "/es/equipo/"
+        name = "Equipo"
+        weight = 5
+      [[languages.es.menu.main]]
+        identifier = "contact"
+        url = "/es/contactos/"
+        name = "Contactos"
+        weight = 6
