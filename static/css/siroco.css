@@ -57,7 +57,7 @@ a.nostyle {
 .big {
    font-size: 24px;
    margin-bottom: 32px;
-   color: rgba(33, 74, 96, 1);
+   color: rgba(255, 0, 0, 1);
 }
 
 #header {
@@ -340,7 +340,7 @@ div#tours_container_title {
 }
 
 #trip_advisor {
-   color: rgba(33, 74, 96, 1);
+   color: rgba(255, 0, 0, 1);
    margin-bottom: 12px;
 }
 
@@ -390,7 +390,7 @@ h2,
 h3 {
    font-family: 'Vollkorn', serif;
    font-size: 36px;
-   color: rgba(53, 94, 116, 1);
+   color: rgba(200, 0, 0, 1);
    text-decoration: none;
    font-weight: normal;
    line-height: 37px;
@@ -661,7 +661,7 @@ textarea {
 }
 
 input[type="submit"] {
-   background-color: rgba(25, 97, 106, 1);
+   background-color: rgba(220, 0, 0, 1);
    margin: 24px auto;
    text-align: center;
    text-transform: uppercase;
@@ -680,7 +680,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
    box-shadow: 0px 0px 6px lightgrey;
    background-color: white;
-   color: rgba(13, 54, 76, 1);
+   color: rgba(150, 0, 0, 1);
 }
 
 .center {
@@ -697,13 +697,13 @@ input[type="submit"]:hover {
    width: 100%;
    background-position: center;
    background-size: cover;
-   background: rgb(4, 0, 46);
-   background: linear-gradient(90deg, rgba(13, 54, 76, 1) 0%, rgba(25, 97, 106, 1) 100%)
+   background: rgb(100, 0, 0);
+   background: linear-gradient(90deg, rgba(150, 0, 0, 1) 0%, rgba(220, 0, 0, 1) 100%)
 }
 
 #blog_cover .blog_tag {
    font-size: 14px;
-   color: linear-gradient(90deg, rgba(13, 54, 76, 1) 0%, rgba(25, 92, 106, 1) 100%);
+   color: linear-gradient(90deg, rgba(150, 0, 0, 1) 0%, rgba(210, 0, 0, 1) 100%);
    text-shadow: none;
    display: inline-block;
    padding: 8px 12px;
@@ -740,7 +740,7 @@ input[type="submit"]:hover {
    box-shadow: 0px 0px 6px lightgrey;
    background-color: rgba(250, 246, 235, 1);
    border: 1px solid rgba(252, 250, 245, 1);
-   color: rgba(13, 54, 76, 1);
+   color: rgba(150, 0, 0, 1);
    cursor: pointer;
    cursor: hand;
 }
@@ -755,8 +755,8 @@ input[type="submit"]:hover {
    background-position: center;
    background-size: cover;
    background: rgb(0, 8, 36);
-   background: rgb(4, 0, 46);
-   background: linear-gradient(90deg, rgba(13, 54, 76, 1) 0%, rgba(25, 92, 106, 1) 100%);
+   background: rgb(100, 0, 0);
+   background: linear-gradient(90deg, rgba(150, 0, 0, 1) 0%, rgba(210, 0, 0, 1) 100%);
 }
 
 .cta {
@@ -783,7 +783,7 @@ input[type="submit"]:hover {
 .cta2:hover {
    text-shadow: 0px 0px 6px rgba(252, 250, 245, 1);
    background-color: rgba(255, 255, 255, .7);
-   color: rgba(13, 54, 76, 1);
+   color: rgba(150, 0, 0, 1);
 
 }
 
@@ -807,8 +807,8 @@ input[type="submit"]:hover {
    line-height: 24px;
    color: rgba(252, 250, 245, 1);
    padding: 24px;
-   background: rgb(4, 0, 46);
-   background: linear-gradient(90deg, rgba(13, 54, 76, 1) 0%, rgba(25, 92, 106, 1) 100%);
+   background: rgb(100, 0, 0);
+   background: linear-gradient(90deg, rgba(150, 0, 0, 1) 0%, rgba(210, 0, 0, 1) 100%);
 }
 
 #footer #contacts {
@@ -2016,7 +2016,7 @@ padding-top: 10px;
    content: "";
    height: 1px;
    width: 202px;
-   background-color: #355e7499;
+   background-color: #C8000099;
    position: absolute;
    bottom: -15px;
 }
@@ -2024,7 +2024,7 @@ padding-top: 10px;
    content: "";
    height: 7px;
    width: 74px;
-   background-color: #355e74;
+   background-color: #C80000;
    position: absolute;
    bottom: -18px;
    left: 0;
@@ -2599,7 +2599,7 @@ body .contact-s {
    cursor: pointer;
 }
 .textimonial-block h4:hover {
- color: rgba(53, 94, 116, 1);
+ color: rgba(200, 0, 0, 1);
 }
 .textimonial-block {
    margin-bottom: 20px;
@@ -2607,7 +2607,7 @@ body .contact-s {
 
 .testimonials-wrapping {
    margin-top: 30px;
-   border-left: 3px solid #355e74;
+   border-left: 3px solid #C80000;
    padding-left: 20px;
 }
 
@@ -2617,7 +2617,7 @@ body .contact-s {
 }
 
 .testimonial-right-inner .testimonials-wrapping {
-   border-right: 3px solid #355e74;
+   border-right: 3px solid #C80000;
    padding-right: 20px;
    border-left: 0;
    padding-left: 0;
@@ -2745,5 +2745,3 @@ div#d_1 {
 .single-blog p img {
    padding: 15px;
 }
-
-
